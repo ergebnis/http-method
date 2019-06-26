@@ -1,0 +1,92 @@
+language: php
+
+env:
+  global:
+    secure: "boYyR3azOCd3VfwErQLDvup5p5knm6WI0ljAYng63oWeh0IFHGeCmXhJOU2boMwdqKVTx7fNt1sM3DWQnXmzBphUC+g5GiNRqipLwC7mk4iUlLdBPD4CyQ0xQIzlQofe8Wp9yQObdHj5uNn2FOMrlKZdRucdA0ig4eKiBE+e82QAahQ6J03eZ+XthZpMCwAzLnhpx5gB0MO/Fif96v1+MvhXNc7LXheisbw2j/9u9BETeJkWTyPLZ9+NnT+RI3ZhGj5AS2Rv09tlOmYtbwciRpao1VG265F9Q4umPUbK66SBprshrpK9bAwAgGONOWEOt/fj+KdNXqkaZhB7Pn1COKEXJ4C/yLxvQULWXLtRdWDxTssTpHABUOxsq9MAuy7ZoA39EWgNIGaldSYBOWsapsMZYL55I6RbicEf860EVG/iITdYbU1qOqZXwcCSpPoCTH6mMasKJLYBG9b8EVr4jU5QdJTn0vU23R/4sY55y2Hpp8O1Irpn56DW2NPhfQrpM3LAkCkOeB1KG9IWG+2yEn80EieIWRWbE4zM0ApklOZxkq0GG1DRa9KT1BaMaN3D2NfYpTh5jzMg5iAbMdBGLo0kjnFddBxlOGZdZ6jpPT35G1A2q5inkIQls7lCUTueqDxMhsUPVU6+EqXrdaoRXy2qkbl+KTy4jrXS7vRniu8="
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+    - .build/php-cs-fixer
+    - .build/phpstan
+    - .build/phpunit
+
+stages:
+  - style
+  - stan
+  - test
+  - infection
+
+jobs:
+  include:
+    - stage: Style
+
+      php: 7.2
+
+      before_install:
+        - source .travis/xdebug.sh
+        - xdebug-disable
+        - composer validate
+        - if [[ -n "$GITHUB_TOKEN" ]]; then composer config github-oauth.github.com $GITHUB_TOKEN; fi
+
+      install:
+        - composer install
+
+      before_script:
+        - mkdir -p .build/php-cs-fixer
+
+      script:
+        - composer normalize --dry-run
+        - vendor/bin/php-cs-fixer fix --config=.php_cs --diff --dry-run --verbose
+
+    - stage: Stan
+
+      php: 7.3
+
+      before_install:
+        - source .travis/xdebug.sh
+        - xdebug-disable
+        - composer validate
+        - if [[ -n "$GITHUB_TOKEN" ]]; then composer config github-oauth.github.com $GITHUB_TOKEN; fi
+
+      install:
+        - composer install
+
+      before_script:
+        - mkdir -p .build/phpstan
+
+      script:
+        - vendor/bin/phpstan analyse --configuration=phpstan.neon
+
+    - &TEST
+
+      stage: Test
+
+      php: 7.2
+
+      before_install:
+        - source .travis/xdebug.sh
+        - xdebug-disable
+        - composer validate
+        - if [[ -n "$GITHUB_TOKEN" ]]; then composer config github-oauth.github.com $GITHUB_TOKEN; fi
+
+      install:
+        - composer install
+
+      before_script:
+        - mkdir -p .build/phpunit
+
+      script:
+        - vendor/bin/phpunit --configuration=test/AutoReview/phpunit.xml
+        - vendor/bin/phpunit --configuration=test/Unit/phpunit.xml
+
+    - <<: *TEST
+
+      php: 7.2
+
+    - <<: *TEST
+
+      php: 7.3
+
+notifications:
+  email: false

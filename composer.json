@@ -1,0 +1,49 @@
+{
+  "name": "localheinz/http-method",
+  "type": "library",
+  "description": "Provides constants for HTTP request methods.",
+  "keywords": [
+    "http",
+    "request",
+    "method"
+  ],
+  "homepage": "https://github.com/localheinz/http-method",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andreas Möller",
+      "email": "am@localheinz.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2"
+  },
+  "require-dev": {
+    "localheinz/composer-normalize": "^1.2.0",
+    "localheinz/php-cs-fixer-config": "~1.22.1",
+    "localheinz/phpstan-rules": "~0.10.0",
+    "localheinz/test-util": "~0.7.0",
+    "phpstan/phpstan": "~0.11.8",
+    "phpstan/phpstan-deprecation-rules": "~0.11.2",
+    "phpstan/phpstan-strict-rules": "~0.11.1",
+    "phpunit/phpunit": "^8.2.3"
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Localheinz\\Http\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Localheinz\\Http\\Test\\": "test/"
+    }
+  },
+  "support": {
+    "issues": "https://github.com/localheinz/http-method/issues",
+    "source": "https://github.com/localheinz/http-method"
+  }
+}
