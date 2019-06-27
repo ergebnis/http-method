@@ -14,7 +14,7 @@ declare(strict_types=1);
 namespace Localheinz\Http;
 
 /**
- * Hypertext Transfer Protocol Request Methods
+ * Hypertext Transfer Protocol Request Methods.
  *
  * @see https://tools.ietf.org/html/rfc7231#section-4.3
  */
