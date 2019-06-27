@@ -32,7 +32,6 @@ final class MethodTest extends Framework\TestCase
         self::assertSame(Method::OPTIONS, 'OPTIONS');
         self::assertSame(Method::PATCH, 'PATCH');
         self::assertSame(Method::POST, 'POST');
-        self::assertSame(Method::PURGE, 'PURGE');
         self::assertSame(Method::PUT, 'PUT');
         self::assertSame(Method::TRACE, 'TRACE');
     }
