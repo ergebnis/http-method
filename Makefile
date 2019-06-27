@@ -12,7 +12,6 @@ stan: vendor
 
 test: vendor
 	mkdir -p .build/phpunit
-	vendor/bin/phpunit --configuration=test/AutoReview/phpunit.xml
 	vendor/bin/phpunit --configuration=test/Unit/phpunit.xml
 
 vendor: composer.json composer.lock

@@ -77,7 +77,6 @@ jobs:
         - mkdir -p .build/phpunit
 
       script:
-        - vendor/bin/phpunit --configuration=test/AutoReview/phpunit.xml
         - vendor/bin/phpunit --configuration=test/Unit/phpunit.xml
 
     - <<: *TEST
