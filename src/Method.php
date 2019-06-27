@@ -22,7 +22,6 @@ interface Method
     public const OPTIONS = 'OPTIONS';
     public const PATCH = 'PATCH';
     public const POST = 'POST';
-    public const PURGE = 'PURGE';
     public const PUT = 'PUT';
     public const TRACE = 'TRACE';
 }
