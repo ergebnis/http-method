@@ -13,7 +13,6 @@ declare(strict_types=1);
 
 namespace Localheinz\Http;
 
-interface Method extends Method\RFC\RFC7231
+interface Method extends Method\RFC\RFC5789, Method\RFC\RFC7231
 {
-    public const PATCH = 'PATCH';
 }
