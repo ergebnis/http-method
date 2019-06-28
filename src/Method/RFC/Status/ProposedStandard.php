@@ -11,9 +11,8 @@ declare(strict_types=1);
  * @see https://github.com/localheinz/http-method
  */
 
-namespace Localheinz\Http;
+namespace Localheinz\Http\Method\RFC\Status;
 
-interface Method extends Method\RFC\RFC7231
+interface ProposedStandard
 {
-    public const PATCH = 'PATCH';
 }

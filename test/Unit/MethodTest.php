@@ -14,6 +14,7 @@ declare(strict_types=1);
 namespace Localheinz\Http\Test\Unit;
 
 use Localheinz\Http\Method;
+use Localheinz\Test\Util\Helper;
 use PHPUnit\Framework;
 
 /**
@@ -23,16 +24,27 @@ use PHPUnit\Framework;
  */
 final class MethodTest extends Framework\TestCase
 {
+    use Helper;
+
     public function testConstants(): void
     {
-        self::assertSame(Method::CONNECT, 'CONNECT');
-        self::assertSame(Method::DELETE, 'DELETE');
-        self::assertSame(Method::GET, 'GET');
-        self::assertSame(Method::HEAD, 'HEAD');
-        self::assertSame(Method::OPTIONS, 'OPTIONS');
-        self::assertSame(Method::PATCH, 'PATCH');
-        self::assertSame(Method::POST, 'POST');
-        self::assertSame(Method::PUT, 'PUT');
-        self::assertSame(Method::TRACE, 'TRACE');
+        self::assertSame('PATCH', Method::PATCH);
+    }
+
+    /**
+     * @dataProvider providerParentInterfaceName
+     *
+     * @param string $parentInterfaceName
+     */
+    public function testExtendsInterface(string $parentInterfaceName): void
+    {
+        self::assertInterfaceExtends($parentInterfaceName, Method::class);
+    }
+
+    public function providerParentInterfaceName(): array
+    {
+        return [
+            [Method\RFC\RFC7231::class],
+        ];
     }
 }
