@@ -25,8 +25,14 @@ labels:
   - name: enhancement
     color: 0e8a16
 
+  - name: rfc
+    color: f4db3a
+
   - name: stale
     color: eeeeee
+
+  - name: vendor
+    color: f4db3a
 
 repository:
   allow_merge_commit: true
