@@ -26,11 +26,6 @@ final class MethodTest extends Framework\TestCase
 {
     use Helper;
 
-    public function testConstants(): void
-    {
-        self::assertSame('PATCH', Method::PATCH);
-    }
-
     /**
      * @dataProvider providerParentInterfaceName
      *
@@ -44,6 +39,7 @@ final class MethodTest extends Framework\TestCase
     public function providerParentInterfaceName(): array
     {
         return [
+            [Method\RFC\RFC5789::class],
             [Method\RFC\RFC7231::class],
         ];
     }
