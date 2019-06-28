@@ -81,10 +81,6 @@ jobs:
 
     - <<: *TEST
 
-      php: 7.2
-
-    - <<: *TEST
-
       php: 7.3
 
 notifications:
