@@ -11,12 +11,12 @@ declare(strict_types=1);
  * @see https://github.com/localheinz/http-method
  */
 
-namespace Localheinz\Http\Method\RFC;
+namespace Localheinz\Http\Method\Rfc;
 
 /**
  * @see https://tools.ietf.org/html/rfc4437
  */
-interface RFC4437 extends Status\Experimental
+interface Rfc4437 extends Status\Experimental
 {
     /**
      * The MKREDIRECTREF method requests the creation of a redirect

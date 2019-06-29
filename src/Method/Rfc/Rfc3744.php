@@ -11,12 +11,12 @@ declare(strict_types=1);
  * @see https://github.com/localheinz/http-method
  */
 
-namespace Localheinz\Http\Method\RFC;
+namespace Localheinz\Http\Method\Rfc;
 
 /**
  * @see https://tools.ietf.org/html/rfc3744
  */
-interface RFC3744 extends Status\ProposedStandard
+interface Rfc3744 extends Status\ProposedStandard
 {
     /**
      * The ACL method modifies the access control list (which can be read

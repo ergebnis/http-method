@@ -11,12 +11,12 @@ declare(strict_types=1);
  * @see https://github.com/localheinz/http-method
  */
 
-namespace Localheinz\Http\Method\RFC;
+namespace Localheinz\Http\Method\Rfc;
 
 /**
  * @see https://tools.ietf.org/html/rfc4791
  */
-interface RFC4791 extends Status\ProposedStandard
+interface Rfc4791 extends Status\ProposedStandard
 {
     /**
      * An HTTP request using the MKCALENDAR method creates a new calendar

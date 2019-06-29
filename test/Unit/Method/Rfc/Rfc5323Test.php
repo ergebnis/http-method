@@ -11,20 +11,20 @@ declare(strict_types=1);
  * @see https://github.com/localheinz/http-method
  */
 
-namespace Localheinz\Http\Test\Unit\Method\RFC;
+namespace Localheinz\Http\Test\Unit\Method\Rfc;
 
-use Localheinz\Http\Method\RFC\RFC5323;
+use Localheinz\Http\Method\Rfc\Rfc5323;
 use PHPUnit\Framework;
 
 /**
  * @internal
  *
- * @covers \Localheinz\Http\Method\RFC\RFC5323
+ * @covers \Localheinz\Http\Method\Rfc\Rfc5323
  */
-final class RFC5323Test extends Framework\TestCase
+final class Rfc5323Test extends Framework\TestCase
 {
     public function testConstants(): void
     {
-        self::assertSame('SEARCH', RFC5323::SEARCH);
+        self::assertSame('SEARCH', Rfc5323::SEARCH);
     }
 }

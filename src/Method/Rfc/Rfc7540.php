@@ -11,12 +11,12 @@ declare(strict_types=1);
  * @see https://github.com/localheinz/http-method
  */
 
-namespace Localheinz\Http\Method\RFC;
+namespace Localheinz\Http\Method\Rfc;
 
 /**
  * @see https://tools.ietf.org/html/rfc7540
  */
-interface RFC7540 extends Status\ProposedStandard
+interface Rfc7540 extends Status\ProposedStandard
 {
     /**
      * In HTTP/2, each endpoint is required to send a connection preface as

@@ -11,20 +11,20 @@ declare(strict_types=1);
  * @see https://github.com/localheinz/http-method
  */
 
-namespace Localheinz\Http\Test\Unit\Method\RFC;
+namespace Localheinz\Http\Test\Unit\Method\Rfc;
 
-use Localheinz\Http\Method\RFC\RFC3744;
+use Localheinz\Http\Method\Rfc\Rfc3648;
 use PHPUnit\Framework;
 
 /**
  * @internal
  *
- * @covers \Localheinz\Http\Method\RFC\RFC3744
+ * @covers \Localheinz\Http\Method\Rfc\Rfc3648
  */
-final class RFC3744Test extends Framework\TestCase
+final class Rfc3648Test extends Framework\TestCase
 {
     public function testConstants(): void
     {
-        self::assertSame('ACL', RFC3744::ACL);
+        self::assertSame('ORDERPATCH', Rfc3648::ORDERPATCH);
     }
 }

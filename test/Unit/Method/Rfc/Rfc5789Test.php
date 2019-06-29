@@ -11,20 +11,20 @@ declare(strict_types=1);
  * @see https://github.com/localheinz/http-method
  */
 
-namespace Localheinz\Http\Test\Unit\Method\RFC;
+namespace Localheinz\Http\Test\Unit\Method\Rfc;
 
-use Localheinz\Http\Method\RFC\RFC4791;
+use Localheinz\Http\Method\Rfc\Rfc5789;
 use PHPUnit\Framework;
 
 /**
  * @internal
  *
- * @covers \Localheinz\Http\Method\RFC\RFC4791
+ * @covers \Localheinz\Http\Method\Rfc\Rfc5789
  */
-final class RFC4791Test extends Framework\TestCase
+final class Rfc5789Test extends Framework\TestCase
 {
     public function testConstants(): void
     {
-        self::assertSame('MKCALENDAR', RFC4791::MKCALENDAR);
+        self::assertSame('PATCH', Rfc5789::PATCH);
     }
 }

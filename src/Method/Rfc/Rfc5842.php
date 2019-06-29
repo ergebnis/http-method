@@ -11,12 +11,12 @@ declare(strict_types=1);
  * @see https://github.com/localheinz/http-method
  */
 
-namespace Localheinz\Http\Method\RFC;
+namespace Localheinz\Http\Method\Rfc;
 
 /**
  * @see https://tools.ietf.org/html/rfc5842
  */
-interface RFC5842 extends Status\Experimental
+interface Rfc5842 extends Status\Experimental
 {
     /**
      * The BIND method modifies the collection identified by the Request-

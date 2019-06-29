@@ -11,12 +11,12 @@ declare(strict_types=1);
  * @see https://github.com/localheinz/http-method
  */
 
-namespace Localheinz\Http\Method\RFC;
+namespace Localheinz\Http\Method\Rfc;
 
 /**
  * @see https://tools.ietf.org/html/rfc5323
  */
-interface RFC5323 extends Status\ProposedStandard
+interface Rfc5323 extends Status\ProposedStandard
 {
     /**
      * The client invokes the SEARCH method to initiate a server-side

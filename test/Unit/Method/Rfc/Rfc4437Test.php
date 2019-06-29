@@ -11,22 +11,21 @@ declare(strict_types=1);
  * @see https://github.com/localheinz/http-method
  */
 
-namespace Localheinz\Http\Test\Unit\Method\RFC;
+namespace Localheinz\Http\Test\Unit\Method\Rfc;
 
-use Localheinz\Http\Method\RFC\RFC5842;
+use Localheinz\Http\Method\Rfc\Rfc4437;
 use PHPUnit\Framework;
 
 /**
  * @internal
  *
- * @covers \Localheinz\Http\Method\RFC\RFC5842
+ * @covers \Localheinz\Http\Method\Rfc\Rfc4437
  */
-final class RFC5842Test extends Framework\TestCase
+final class Rfc4437Test extends Framework\TestCase
 {
     public function testConstants(): void
     {
-        self::assertSame('BIND', RFC5842::BIND);
-        self::assertSame('REBIND', RFC5842::REBIND);
-        self::assertSame('UNBIND', RFC5842::UNBIND);
+        self::assertSame('MKREDIRECTREF', Rfc4437::MKREDIRECTREF);
+        self::assertSame('UPDATEREDIRECTREF', Rfc4437::UPDATEREDIRECTREF);
     }
 }

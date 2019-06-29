@@ -11,12 +11,12 @@ declare(strict_types=1);
  * @see https://github.com/localheinz/http-method
  */
 
-namespace Localheinz\Http\Method\RFC;
+namespace Localheinz\Http\Method\Rfc;
 
 /**
  * @see https://tools.ietf.org/html/rfc3648
  */
-interface RFC3648 extends Status\ProposedStandard
+interface Rfc3648 extends Status\ProposedStandard
 {
     /**
      * The ORDERPATCH method is used to change the ordering semantics of a

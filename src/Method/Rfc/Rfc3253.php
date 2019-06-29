@@ -11,12 +11,12 @@ declare(strict_types=1);
  * @see https://github.com/localheinz/http-method
  */
 
-namespace Localheinz\Http\Method\RFC;
+namespace Localheinz\Http\Method\Rfc;
 
 /**
  * @see http://www.iana.org/go/rfc3253
  */
-interface RFC3253 extends Status\ProposedStandard
+interface Rfc3253 extends Status\ProposedStandard
 {
     /**
      * A collection can be placed under baseline control with a
