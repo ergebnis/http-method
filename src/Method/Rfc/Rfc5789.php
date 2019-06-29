@@ -11,12 +11,12 @@ declare(strict_types=1);
  * @see https://github.com/localheinz/http-method
  */
 
-namespace Localheinz\Http\Method\RFC;
+namespace Localheinz\Http\Method\Rfc;
 
 /**
  * @see https://tools.ietf.org/html/rfc5789
  */
-interface RFC5789 extends Status\ProposedStandard
+interface Rfc5789 extends Status\ProposedStandard
 {
     /**
      * The PATCH method requests that a set of changes described in the

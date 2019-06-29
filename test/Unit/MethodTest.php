@@ -39,8 +39,8 @@ final class MethodTest extends Framework\TestCase
     public function providerParentInterfaceName(): array
     {
         return [
-            [Method\RFC\RFC5789::class],
-            [Method\RFC\RFC7231::class],
+            [Method\Rfc\Rfc5789::class],
+            [Method\Rfc\Rfc7231::class],
         ];
     }
 }

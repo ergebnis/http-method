@@ -11,8 +11,8 @@ declare(strict_types=1);
  * @see https://github.com/localheinz/http-method
  */
 
-namespace Localheinz\Http\Method\RFC\Status;
+namespace Localheinz\Http\Method\Rfc\Status;
 
-interface Experimental
+interface ProposedStandard
 {
 }

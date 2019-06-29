@@ -11,21 +11,20 @@ declare(strict_types=1);
  * @see https://github.com/localheinz/http-method
  */
 
-namespace Localheinz\Http\Test\Unit\Method\RFC;
+namespace Localheinz\Http\Test\Unit\Method\Rfc;
 
-use Localheinz\Http\Method\RFC\RFC2068;
+use Localheinz\Http\Method\Rfc\Rfc4791;
 use PHPUnit\Framework;
 
 /**
  * @internal
  *
- * @covers \Localheinz\Http\Method\RFC\RFC2068
+ * @covers \Localheinz\Http\Method\Rfc\Rfc4791
  */
-final class RFC2068Test extends Framework\TestCase
+final class Rfc4791Test extends Framework\TestCase
 {
     public function testConstants(): void
     {
-        self::assertSame(RFC2068::LINK, 'LINK');
-        self::assertSame(RFC2068::UNLINK, 'UNLINK');
+        self::assertSame('MKCALENDAR', Rfc4791::MKCALENDAR);
     }
 }

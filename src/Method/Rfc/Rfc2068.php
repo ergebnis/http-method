@@ -11,12 +11,12 @@ declare(strict_types=1);
  * @see https://github.com/localheinz/http-method
  */
 
-namespace Localheinz\Http\Method\RFC;
+namespace Localheinz\Http\Method\Rfc;
 
 /**
  * @see https://tools.ietf.org/html/rfc2068
  */
-interface RFC2068 extends Status\ProposedStandard
+interface Rfc2068 extends Status\ProposedStandard
 {
     /**
      * The LINK method establishes one or more Link relationships between

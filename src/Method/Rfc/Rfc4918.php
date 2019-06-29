@@ -11,12 +11,12 @@ declare(strict_types=1);
  * @see https://github.com/localheinz/http-method
  */
 
-namespace Localheinz\Http\Method\RFC;
+namespace Localheinz\Http\Method\Rfc;
 
 /**
  * @see https://tools.ietf.org/html/rfc4918
  */
-interface RFC4918 extends Status\ProposedStandard
+interface Rfc4918 extends Status\ProposedStandard
 {
     /**
      * The COPY method creates a duplicate of the source resource identified

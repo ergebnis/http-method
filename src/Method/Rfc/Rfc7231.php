@@ -11,12 +11,12 @@ declare(strict_types=1);
  * @see https://github.com/localheinz/http-method
  */
 
-namespace Localheinz\Http\Method\RFC;
+namespace Localheinz\Http\Method\Rfc;
 
 /**
  * @see https://tools.ietf.org/html/rfc7231
  */
-interface RFC7231 extends Status\ProposedStandard
+interface Rfc7231 extends Status\ProposedStandard
 {
     /**
      * The CONNECT method requests that the recipient establish a tunnel to
