@@ -23,7 +23,7 @@ Here are a few examples of HTTP request abstractions which provide constants for
 Here are a few examples of HTTP response abstractions which provide constants for HTTP response status codes:
 
 * [`Symfony\Component\HttpFoundation\Response`](https://github.com/symfony/http-foundation/blob/v4.3.2/Response.php#L21-L88)
-* [`Zend\Http\Request`](https://github.com/zendframework/zend-http/blob/release-2.10.0/src/Response.php#L24-L88)
+* [`Zend\Http\Response`](https://github.com/zendframework/zend-http/blob/release-2.10.0/src/Response.php#L24-L88)
 
 However, a developer might use an abstraction that either does not provide any constants at all, or only provides a subset of the constants required for the specific case.
 
@@ -41,9 +41,9 @@ $ composer require localheinz/http-method
 
 ## Usage
 
-The interface [`Localheinz\Http\Method`](/src/Method.php) provides constants for all of the HTTP request methods that are standardized by 
+The interface [`Localheinz\Http\Method`](/src/Method.php) provides constants for all of the HTTP request methods that are standardized by
 
-* [RFC 5789](https://tools.ietf.org/html/rfc5789) 
+* [RFC 5789](https://tools.ietf.org/html/rfc5789)
 * [RFC 7231](https://tools.ietf.org/html/rfc7231)
 
 namely
