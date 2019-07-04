@@ -8,7 +8,7 @@ Provides constants for HTTP request methods, inspired by [`teapot/status-code`](
 
 ## Motivation
 
-Several PHP frameworks come with their own abstractions of HTTP request and response objects. Some of them provide constants for
+Several PHP frameworks and libraries come with their own abstractions of HTTP request and response objects. Some of them provide constants for
 
 - HTTP request method names
 - HTTP response status codes
@@ -24,6 +24,11 @@ Here are a few examples of HTTP response abstractions which provide constants fo
 
 * [`Symfony\Component\HttpFoundation\Response`](https://github.com/symfony/http-foundation/blob/v4.3.2/Response.php#L21-L88)
 * [`Zend\Http\Response`](https://github.com/zendframework/zend-http/blob/release-2.10.0/src/Response.php#L24-L88)
+
+Here are a few examples of interfaces providing constants for HTTP request methods and HTTP response status codes:
+
+* [`Fig\Http\Message\RequestMethodInterface`](https://github.com/php-fig/http-message-util/blob/1.1.3/src/RequestMethodInterface.php#L24-L33)
+* [`Fig\Http\Message\StatusCodeInterface`](https://github.com/php-fig/http-message-util/blob/1.1.3/src/StatusCodeInterface.php#L39-L106)
 
 However, a developer might use an abstraction that either does not provide any constants at all, or only provides a subset of the constants required for the specific case.
 
