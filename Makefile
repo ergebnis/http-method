@@ -15,6 +15,6 @@ test: vendor
 	vendor/bin/phpunit --configuration=test/Unit/phpunit.xml
 
 vendor: composer.json composer.lock
-	composer validate
+	composer validate --strict
 	composer install
 	composer normalize
