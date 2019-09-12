@@ -10,8 +10,10 @@ branches:
         required_approving_review_count: 1
       required_status_checks:
         contexts:
-          - "Travis CI - Branch"
-          - "Travis CI - Pull Request"
+          -  "Coding Standards"
+          -  "Static Code Analysis"
+          -  "Tests (php7.2)"
+          -  "Tests (php7.3)"
         strict: false
       restrictions: null
 
