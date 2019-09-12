@@ -1,8 +1,8 @@
 # CONTRIBUTING
 
-We are using [Travis CI](https://travis-ci.com) as a continuous integration system.
+We are using [GitHub Actions](https://github.com/features/actions) as a continuous integration system.
 
-For details, see [`.travis.yml`](../.travis.yml).
+For details, see [`workflows/continuous-integration.yml`](workflows/continuous-integration.yml).
 
 ## Coding Standards
 
@@ -49,3 +49,11 @@ $ make
 ```
 
 to enforce coding standards, perform a static code analysis, and run tests!
+
+:bulb: Run
+
+```
+$ make help
+```
+
+to display a list of available targets with corresponding descriptions.

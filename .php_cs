@@ -31,7 +31,6 @@ $config->getFinder()
         '.build',
         '.dependabot',
         '.github',
-        '.travis',
     ])
     ->name('.php_cs');
 
