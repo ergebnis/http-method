@@ -13,9 +13,9 @@ declare(strict_types=1);
 
 namespace Localheinz\Http\Test\Unit\Method;
 
+use Ergebnis\Test\Util\Helper;
 use Localheinz\Http\Method;
 use Localheinz\Http\Method\WebDav;
-use Localheinz\Test\Util\Helper;
 use PHPUnit\Framework;
 
 /**

@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 namespace Localheinz\Http\Test\Unit;
 
+use Ergebnis\Test\Util\Helper;
 use Localheinz\Http\Method;
-use Localheinz\Test\Util\Helper;
 use PHPUnit\Framework;
 
 /**
