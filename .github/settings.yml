@@ -11,10 +11,11 @@ branches:
       required_status_checks:
         contexts:
           - "Coding Standards (7.2)"
-          - "Dependency Analysis (7.3)"
-          - "Static Code Analysis (7.3)"
+          - "Dependency Analysis (7.4)"
+          - "Static Code Analysis (7.4)"
           - "Tests (7.2, locked)"
           - "Tests (7.3, locked)"
+          - "Tests (7.4, locked)"
         strict: false
       restrictions: null
 
