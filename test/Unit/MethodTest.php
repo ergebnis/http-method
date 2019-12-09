@@ -8,19 +8,19 @@ declare(strict_types=1);
  * For the full copyright and license information, please view
  * the LICENSE file that was distributed with this source code.
  *
- * @see https://github.com/localheinz/http-method
+ * @see https://github.com/ergebnis/http-method
  */
 
-namespace Localheinz\Http\Test\Unit;
+namespace Ergebnis\Http\Test\Unit;
 
+use Ergebnis\Http\Method;
 use Ergebnis\Test\Util\Helper;
-use Localheinz\Http\Method;
 use PHPUnit\Framework;
 
 /**
  * @internal
  *
- * @covers \Localheinz\Http\Method
+ * @covers \Ergebnis\Http\Method
  */
 final class MethodTest extends Framework\TestCase
 {

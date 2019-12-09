@@ -8,18 +8,18 @@ declare(strict_types=1);
  * For the full copyright and license information, please view
  * the LICENSE file that was distributed with this source code.
  *
- * @see https://github.com/localheinz/http-method
+ * @see https://github.com/ergebnis/http-method
  */
 
-namespace Localheinz\Http\Test\Unit\Method\Vendor;
+namespace Ergebnis\Http\Test\Unit\Method\Vendor;
 
-use Localheinz\Http\Method\Vendor\VarnishCache;
+use Ergebnis\Http\Method\Vendor\VarnishCache;
 use PHPUnit\Framework;
 
 /**
  * @internal
  *
- * @covers \Localheinz\Http\Method\Vendor\VarnishCache
+ * @covers \Ergebnis\Http\Method\Vendor\VarnishCache
  */
 final class VarnishCacheTest extends Framework\TestCase
 {

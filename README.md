@@ -1,8 +1,8 @@
 # http-method
 
-[![Continuous Integration](https://github.com/localheinz/http-method/workflows/Continuous%20Integration/badge.svg)](https://github.com/localheinz/http-method/actions)
-[![Latest Stable Version](https://poser.pugx.org/localheinz/http-method/v/stable)](https://packagist.org/packages/localheinz/http-method)
-[![Total Downloads](https://poser.pugx.org/localheinz/http-method/downloads)](https://packagist.org/packages/localheinz/http-method)
+[![Continuous Integration](https://github.com/ergebnis/http-method/workflows/Continuous%20Integration/badge.svg)](https://github.com/ergebnis/http-method/actions)
+[![Latest Stable Version](https://poser.pugx.org/ergebnis/http-method/v/stable)](https://packagist.org/packages/ergebnis/http-method/)
+[![Total Downloads](https://poser.pugx.org/ergebnis/http-method/downloads)](https://packagist.org/packages/ergebnis/http-method/)
 
 Provides constants for HTTP request methods, inspired by [`teapot/status-code`](https://github.com/teapot-php/status-code).
 
@@ -41,12 +41,12 @@ In a similar fashion, this library here aims to provide a collection of interfac
 Run
 
 ```
-$ composer require localheinz/http-method
+$ composer require ergebnis/http-method
 ```
 
 ## Usage
 
-The interface [`Localheinz\Http\Method`](/src/Method.php) provides constants for all of the HTTP request methods that are standardized by
+The interface [`Ergebnis\Http\Method`](/src/Method.php) provides constants for all of the HTTP request methods that are standardized by
 
 * [RFC 5789](https://tools.ietf.org/html/rfc5789)
 * [RFC 7231](https://tools.ietf.org/html/rfc7231)
@@ -63,7 +63,7 @@ namely
 * `PUT`
 * `TRACE`
 
-The interface [`Localheinz\Http\Method\WebDav`](/src/Method/WebDav.php) provides constants for all of the HTTP request methods that are standardized by
+The interface [`Ergebnis\Http\Method\WebDav`](/src/Method/WebDav.php) provides constants for all of the HTTP request methods that are standardized by
 
 - [RFC 3648](https://tools.ietf.org/html/rfc3648)
 - [RFC 3744](https://tools.ietf.org/html/rfc3744)
@@ -103,12 +103,12 @@ namely
 - `UNLOCK`
 - `UPDATEREDIRECTREF`
 
-The interface [`Localheinz\Http\Method\Vendor\SquidCache`](/src/Method/Vendor/SquidCache.php) provides constants for a suggest HTTP request method used for purging items from the cache,
+The interface [`Ergebnis\Http\Method\Vendor\SquidCache`](/src/Method/Vendor/SquidCache.php) provides constants for a suggest HTTP request method used for purging items from the cache,
 namely
 
 - `PURGE`
 
-The interface [`Localheinz\Http\Method\Vendor\VarnishCache`](/src/Method/Vendor/VarnishCache.php) provides constants for a suggest HTTP request method used for invalidating and purging items from the cache, namely
+The interface [`Ergebnis\Http\Method\Vendor\VarnishCache`](/src/Method/Vendor/VarnishCache.php) provides constants for a suggest HTTP request method used for invalidating and purging items from the cache, namely
 
 - `BAN`
 - `PURGE`
@@ -116,7 +116,7 @@ The interface [`Localheinz\Http\Method\Vendor\VarnishCache`](/src/Method/Vendor/
 To use these constants, import the interfaces and refer to the constants instead of using magic strings:
 
 ```php
-use Localheinz\Http\Method;
+use Ergebnis\Http\Method;
 use Psr\Http\Client;
 use Psr\Http\Message;
 

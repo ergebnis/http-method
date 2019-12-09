@@ -8,20 +8,20 @@ declare(strict_types=1);
  * For the full copyright and license information, please view
  * the LICENSE file that was distributed with this source code.
  *
- * @see https://github.com/localheinz/http-method
+ * @see https://github.com/ergebnis/http-method
  */
 
-namespace Localheinz\Http\Test\Unit\Method;
+namespace Ergebnis\Http\Test\Unit\Method;
 
+use Ergebnis\Http\Method;
+use Ergebnis\Http\Method\WebDav;
 use Ergebnis\Test\Util\Helper;
-use Localheinz\Http\Method;
-use Localheinz\Http\Method\WebDav;
 use PHPUnit\Framework;
 
 /**
  * @internal
  *
- * @covers \Localheinz\Http\Method\WebDav
+ * @covers \Ergebnis\Http\Method\WebDav
  */
 final class WebDavTest extends Framework\TestCase
 {

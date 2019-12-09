@@ -8,18 +8,18 @@ declare(strict_types=1);
  * For the full copyright and license information, please view
  * the LICENSE file that was distributed with this source code.
  *
- * @see https://github.com/localheinz/http-method
+ * @see https://github.com/ergebnis/http-method
  */
 
-namespace Localheinz\Http\Test\Unit\Method\Rfc;
+namespace Ergebnis\Http\Test\Unit\Method\Rfc;
 
-use Localheinz\Http\Method\Rfc\Rfc5842;
+use Ergebnis\Http\Method\Rfc\Rfc5842;
 use PHPUnit\Framework;
 
 /**
  * @internal
  *
- * @covers \Localheinz\Http\Method\Rfc\Rfc5842
+ * @covers \Ergebnis\Http\Method\Rfc\Rfc5842
  */
 final class Rfc5842Test extends Framework\TestCase
 {
