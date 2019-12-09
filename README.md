@@ -1,6 +1,6 @@
 # http-method
 
-[![CI Status](https://github.com/localheinz/http-method/workflows/Continuous%20Integration/badge.svg)](https://github.com/localheinz/http-method/actions)
+[![Continuous Integration](https://github.com/localheinz/http-method/workflows/Continuous%20Integration/badge.svg)](https://github.com/localheinz/http-method/actions)
 [![Latest Stable Version](https://poser.pugx.org/localheinz/http-method/v/stable)](https://packagist.org/packages/localheinz/http-method)
 [![Total Downloads](https://poser.pugx.org/localheinz/http-method/downloads)](https://packagist.org/packages/localheinz/http-method)
 

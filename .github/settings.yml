@@ -10,10 +10,11 @@ branches:
         required_approving_review_count: 1
       required_status_checks:
         contexts:
-          -  "Coding Standards"
-          -  "Static Code Analysis"
-          -  "Tests (php7.2)"
-          -  "Tests (php7.3)"
+          - "Coding Standards (7.2)"
+          - "Dependency Analysis (7.3)"
+          - "Static Code Analysis (7.3)"
+          - "Tests (7.2, locked)"
+          - "Tests (7.3, locked)"
         strict: false
       restrictions: null
 
@@ -21,7 +22,7 @@ labels:
   - name: bug
     color: ee0701
 
-  - name: dependencies
+  - name: dependency
     color: 0366d6
 
   - name: enhancement
@@ -29,6 +30,12 @@ labels:
 
   - name: rfc
     color: f4db3a
+
+  - name: question
+    color: cc317c
+
+  - name: security
+    color: ee0701
 
   - name: stale
     color: eeeeee
