@@ -8,18 +8,18 @@ declare(strict_types=1);
  * For the full copyright and license information, please view
  * the LICENSE file that was distributed with this source code.
  *
- * @see https://github.com/localheinz/http-method
+ * @see https://github.com/ergebnis/http-method
  */
 
-namespace Localheinz\Http\Test\Unit\Method\Vendor;
+namespace Ergebnis\Http\Test\Unit\Method\Vendor;
 
-use Localheinz\Http\Method\Vendor\SquidCache;
+use Ergebnis\Http\Method\Vendor\SquidCache;
 use PHPUnit\Framework;
 
 /**
  * @internal
  *
- * @covers \Localheinz\Http\Method\Vendor\SquidCache
+ * @covers \Ergebnis\Http\Method\Vendor\SquidCache
  */
 final class SquidCacheTest extends Framework\TestCase
 {

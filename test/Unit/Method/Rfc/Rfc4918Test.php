@@ -8,18 +8,18 @@ declare(strict_types=1);
  * For the full copyright and license information, please view
  * the LICENSE file that was distributed with this source code.
  *
- * @see https://github.com/localheinz/http-method
+ * @see https://github.com/ergebnis/http-method
  */
 
-namespace Localheinz\Http\Test\Unit\Method\Rfc;
+namespace Ergebnis\Http\Test\Unit\Method\Rfc;
 
-use Localheinz\Http\Method\Rfc\Rfc4918;
+use Ergebnis\Http\Method\Rfc\Rfc4918;
 use PHPUnit\Framework;
 
 /**
  * @internal
  *
- * @covers \Localheinz\Http\Method\Rfc\Rfc4918
+ * @covers \Ergebnis\Http\Method\Rfc\Rfc4918
  */
 final class Rfc4918Test extends Framework\TestCase
 {

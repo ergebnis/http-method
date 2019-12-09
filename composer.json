@@ -1,5 +1,5 @@
 {
-  "name": "localheinz/http-method",
+  "name": "ergebnis/http-method",
   "type": "library",
   "description": "Provides constants for HTTP request methods.",
   "keywords": [
@@ -7,7 +7,7 @@
     "request",
     "method"
   ],
-  "homepage": "https://github.com/localheinz/http-method",
+  "homepage": "https://github.com/ergebnis/http-method",
   "license": "MIT",
   "authors": [
     {
@@ -17,6 +17,9 @@
   ],
   "require": {
     "php": "^7.2"
+  },
+  "replace": {
+    "localheinz/http-method": "*"
   },
   "require-dev": {
     "ergebnis/php-cs-fixer-config": "~1.1.0",
@@ -35,16 +38,16 @@
   },
   "autoload": {
     "psr-4": {
-      "Localheinz\\Http\\": "src/"
+      "Ergebnis\\Http\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Localheinz\\Http\\Test\\": "test/"
+      "Ergebnis\\Http\\Test\\": "test/"
     }
   },
   "support": {
-    "issues": "https://github.com/localheinz/http-method/issues",
-    "source": "https://github.com/localheinz/http-method"
+    "issues": "https://github.com/ergebnis/http-method/issues",
+    "source": "https://github.com/ergebnis/http-method"
   }
 }
