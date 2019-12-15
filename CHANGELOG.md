@@ -6,7 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-For a full diff see [`2.0.0...master`][2.0.0...master].
+For a full diff see [`2.0.1...master`][2.0.1...master].
+
+## [`2.0.1`][2.0.1]
+
+For a full diff see [`2.0.0...2.0.1`][2.0.0...2.0.1].
+
+### Fixed
+
+* Removed an inappropriate `replace` configuration from `composer.json` ([#73]), by [@localheinz]
 
 ### [`2.0.0`][2.0.0]
 
@@ -71,10 +79,12 @@ For a full diff see [`848192d...1.0.0`][848192d...1.0.0].
 
 [1.0.0]: https://github.com/ergebnis/http-method/releases/tag/1.0.0
 [2.0.0]: https://github.com/ergebnis/http-method/releases/tag/2.0.0
+[2.0.1]: https://github.com/ergebnis/http-method/releases/tag/2.0.1
 
 [848192d...1.0.0]: https://github.com/ergebnis/http-method/compare/848192d...1.0.0
 [1.0.0...2.0.0]: https://github.com/ergebnis/http-method/compare/1.0.0...2.0.0
-[2.0.0...master]: https://github.com/ergebnis/http-method/compare/2.0.0...master
+[2.0.0...2.0.1]: https://github.com/ergebnis/http-method/compare/2.0.0...2.0.1
+[2.0.1...master]: https://github.com/ergebnis/http-method/compare/2.0.1...master
 
 [#5]: https://github.com/ergebnis/http-method/pull/5
 [#7]: https://github.com/ergebnis/http-method/pull/7
@@ -92,6 +102,7 @@ For a full diff see [`848192d...1.0.0`][848192d...1.0.0].
 [#19]: https://github.com/ergebnis/http-method/pull/19
 [#22]: https://github.com/ergebnis/http-method/pull/22
 [#70]: https://github.com/ergebnis/http-method/pull/70
+[#73]: https://github.com/ergebnis/http-method/pull/70
 
 [@ergebnis]: https://github.com/ergebnis
 [@localheinz]: https://github.com/localheinz
