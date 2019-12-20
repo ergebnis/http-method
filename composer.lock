@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0ffc99b612279fe724cea551dce0ea96",
+    "content-hash": "7f038d7f9b2b93f6e4959cb5248c7931",
     "packages": [],
     "packages-dev": [
         {
@@ -637,33 +637,33 @@
         },
         {
             "name": "ergebnis/phpstan-rules",
-            "version": "0.14.1",
+            "version": "0.14.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/phpstan-rules.git",
-                "reference": "c8926fe03a968213df4b13d9a3ee605566c02eed"
+                "reference": "e6cf7e74b17e29a54dd85ed1d18f52ec113eaa8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/phpstan-rules/zipball/c8926fe03a968213df4b13d9a3ee605566c02eed",
-                "reference": "c8926fe03a968213df4b13d9a3ee605566c02eed",
+                "url": "https://api.github.com/repos/ergebnis/phpstan-rules/zipball/e6cf7e74b17e29a54dd85ed1d18f52ec113eaa8e",
+                "reference": "e6cf7e74b17e29a54dd85ed1d18f52ec113eaa8e",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
                 "nikic/php-parser": "^4.2.3",
-                "php": "^7.2",
+                "php": "^7.1",
                 "phpstan/phpstan": "~0.11.15 || ~0.12.0"
             },
             "require-dev": {
-                "ergebnis/php-cs-fixer-config": "~1.1.0",
-                "ergebnis/test-util": "~0.9.0",
+                "ergebnis/composer-normalize": "^1.3.1",
+                "ergebnis/php-cs-fixer-config": "~1.1.2",
+                "ergebnis/test-util": "~0.9.1",
                 "infection/infection": "~0.13.6",
-                "localheinz/composer-normalize": "^1.3.1",
                 "nette/di": "^3.0.1",
                 "phpstan/phpstan-deprecation-rules": "~0.11.2",
                 "phpstan/phpstan-strict-rules": "~0.11.1",
-                "phpunit/phpunit": "^8.5.0",
+                "phpunit/phpunit": "^7.5.18",
                 "psr/container": "^1.0.0",
                 "zendframework/zend-servicemanager": "^2.0.0"
             },
@@ -697,7 +697,7 @@
                 "phpstan-extreme-rules",
                 "phpstan-rules"
             ],
-            "time": "2019-12-15T10:25:27+00:00"
+            "time": "2019-12-19T10:25:17+00:00"
         },
         {
             "name": "ergebnis/test-util",
