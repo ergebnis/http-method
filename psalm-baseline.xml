@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files psalm-version="3.8.1@8e54e3aa060fc490d86d0e2abbf62750516d40fd">
+  <file src="test/Unit/Method/Rfc/Rfc3648Test.php">
+    <RedundantCondition occurrences="1">
+      <code>assertSame</code>
+    </RedundantCondition>
+  </file>
+  <file src="test/Unit/Method/Rfc/Rfc3744Test.php">
+    <RedundantCondition occurrences="1">
+      <code>assertSame</code>
+    </RedundantCondition>
+  </file>
+  <file src="test/Unit/Method/Rfc/Rfc4437Test.php">
+    <RedundantCondition occurrences="2">
+      <code>assertSame</code>
+      <code>assertSame</code>
+    </RedundantCondition>
+  </file>
+  <file src="test/Unit/Method/Rfc/Rfc4791Test.php">
+    <RedundantCondition occurrences="1">
+      <code>assertSame</code>
+    </RedundantCondition>
+  </file>
+  <file src="test/Unit/Method/Rfc/Rfc4918Test.php">
+    <RedundantCondition occurrences="7">
+      <code>assertSame</code>
+      <code>assertSame</code>
+      <code>assertSame</code>
+      <code>assertSame</code>
+      <code>assertSame</code>
+      <code>assertSame</code>
+      <code>assertSame</code>
+    </RedundantCondition>
+  </file>
+  <file src="test/Unit/Method/Rfc/Rfc5323Test.php">
+    <RedundantCondition occurrences="1">
+      <code>assertSame</code>
+    </RedundantCondition>
+  </file>
+  <file src="test/Unit/Method/Rfc/Rfc5789Test.php">
+    <RedundantCondition occurrences="1">
+      <code>assertSame</code>
+    </RedundantCondition>
+  </file>
+  <file src="test/Unit/Method/Rfc/Rfc5842Test.php">
+    <RedundantCondition occurrences="3">
+      <code>assertSame</code>
+      <code>assertSame</code>
+      <code>assertSame</code>
+    </RedundantCondition>
+  </file>
+  <file src="test/Unit/Method/Rfc/Rfc7231Test.php">
+    <RedundantCondition occurrences="8">
+      <code>assertSame</code>
+      <code>assertSame</code>
+      <code>assertSame</code>
+      <code>assertSame</code>
+      <code>assertSame</code>
+      <code>assertSame</code>
+      <code>assertSame</code>
+      <code>assertSame</code>
+    </RedundantCondition>
+  </file>
+  <file src="test/Unit/Method/Rfc/Rfc7540Test.php">
+    <RedundantCondition occurrences="1">
+      <code>assertSame</code>
+    </RedundantCondition>
+  </file>
+  <file src="test/Unit/Method/Vendor/SquidCacheTest.php">
+    <RedundantCondition occurrences="1">
+      <code>assertSame</code>
+    </RedundantCondition>
+  </file>
+  <file src="test/Unit/Method/Vendor/VarnishCacheTest.php">
+    <RedundantCondition occurrences="2">
+      <code>assertSame</code>
+      <code>assertSame</code>
+    </RedundantCondition>
+  </file>
+</files>
