@@ -26,8 +26,6 @@ branches:
           - "Tests (7.4, lowest)"
           - "Tests (7.4, locked)"
           - "Tests (7.4, highest)"
-          - "codecov/patch"
-          - "codecov/project"
         strict: false
       restrictions:
         apps:
