@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="3.8.1@8e54e3aa060fc490d86d0e2abbf62750516d40fd">
+<files psalm-version="3.9.5@0cfe565d0afbcd31eadcc281b9017b5692911661">
   <file src="test/Unit/Method/Rfc/Rfc3648Test.php">
     <RedundantCondition occurrences="1">
       <code>assertSame</code>
@@ -76,5 +76,15 @@
       <code>assertSame</code>
       <code>assertSame</code>
     </RedundantCondition>
+  </file>
+  <file src="test/Unit/Method/WebDavTest.php">
+    <MixedInferredReturnType occurrences="1">
+      <code>array</code>
+    </MixedInferredReturnType>
+  </file>
+  <file src="test/Unit/MethodTest.php">
+    <MixedInferredReturnType occurrences="1">
+      <code>array</code>
+    </MixedInferredReturnType>
   </file>
 </files>

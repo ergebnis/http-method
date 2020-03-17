@@ -1,7 +1,9 @@
 # http-method
 
-[![Continuous Deployment](https://github.com/ergebnis/http-method/workflows/Continuous%20Deployment/badge.svg)](https://github.com/ergebnis/http-method/actions)
-[![Continuous Integration](https://github.com/ergebnis/http-method/workflows/Continuous%20Integration/badge.svg)](https://github.com/ergebnis/http-method/actions)
+[![Integrate](https://github.com/ergebnis/http-method/workflows/Integrate/badge.svg?branch=master)](https://github.com/ergebnis/http-method/actions)
+[![Prune](https://github.com/ergebnis/http-method/workflows/Prune/badge.svg?branch=master)](https://github.com/ergebnis/http-method/actions)
+[![Release](https://github.com/ergebnis/http-method/workflows/Release/badge.svg?branch=master)](https://github.com/ergebnis/http-method/actions)
+[![Renew](https://github.com/ergebnis/http-method/workflows/Renew/badge.svg?branch=master)](https://github.com/ergebnis/http-method/actions)
 
 [![Type Coverage](https://shepherd.dev/github/ergebnis/http-method/coverage.svg)](https://shepherd.dev/github/ergebnis/http-method)
 
@@ -150,4 +152,6 @@ Please have a look at [`CODE_OF_CONDUCT.md`](https://github.com/ergebnis/.github
 
 ## License
 
-This package is licensed using the [MIT License](LICENSE.md).
+This package is licensed using the MIT License.
+
+Please have a look at [`LICENSE.md`](LICENSE.md).
