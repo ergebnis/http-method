@@ -29,7 +29,7 @@ final class MethodTest extends Framework\TestCase
     /**
      * @dataProvider providerParentInterfaceName
      *
-     * @param string $parentInterfaceName
+     * @param class-string $parentInterfaceName
      */
     public function testExtendsInterface(string $parentInterfaceName): void
     {
