@@ -34,8 +34,7 @@ branches:
         # Note: User, app, and team restrictions are only available for organization-owned repositories.
         # Set to null to disable when using this configuration for a repository on a personal account.
 
-        apps:
-          - "dependabot-preview"
+        apps: []
         teams: []
         users:
           - "ergebnis-bot"
@@ -56,6 +55,10 @@ labels:
     color: "0e8a16"
     description: ""
 
+  - name: "merge"
+    color: "6f42c1"
+    description: ""
+
   - name: "rfc"
     color: "f4db3a"
     description: ""
@@ -70,10 +73,6 @@ labels:
 
   - name: "stale"
     color: "eeeeee"
-    description: ""
-
-  - name: "vendor"
-    color: "f4db3a"
     description: ""
 
 # https://developer.github.com/v3/repos/#edit
