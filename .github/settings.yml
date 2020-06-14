@@ -17,15 +17,15 @@ branches:
           - "Coding Standards (7.2, locked)"
           - "Dependency Analysis (7.4, locked)"
           - "Static Code Analysis (7.4, locked)"
-          - "Tests (7.2, lowest)"
-          - "Tests (7.2, locked)"
           - "Tests (7.2, highest)"
-          - "Tests (7.3, lowest)"
-          - "Tests (7.3, locked)"
+          - "Tests (7.2, locked)"
+          - "Tests (7.2, lowest)"
           - "Tests (7.3, highest)"
-          - "Tests (7.4, lowest)"
-          - "Tests (7.4, locked)"
+          - "Tests (7.3, locked)"
+          - "Tests (7.3, lowest)"
           - "Tests (7.4, highest)"
+          - "Tests (7.4, locked)"
+          - "Tests (7.4, lowest)"
         strict: false
       restrictions:
 
