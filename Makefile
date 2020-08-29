@@ -10,7 +10,7 @@ coding-standards: vendor ## Normalizes composer.json with ergebnis/composer-norm
 
 .PHONY: dependency-analysis
 dependency-analysis: vendor ## Runs a dependency analysis with maglnet/composer-require-checker
-	tools/composer-require-checker check
+	tools/composer-require-checker check --config-file=$(shell pwd)/composer-require-checker.json
 
 .PHONY: help
 help: ## Displays this list of targets with descriptions
@@ -19,7 +19,7 @@ help: ## Displays this list of targets with descriptions
 .PHONY: static-code-analysis
 static-code-analysis: vendor ## Runs a static code analysis with phpstan/phpstan and vimeo/psalm
 	mkdir -p .build/phpstan
-	vendor/bin/phpstan analyse --configuration=phpstan.neon
+	vendor/bin/phpstan analyse --configuration=phpstan.neon --memory-limit=-1
 	mkdir -p .build/psalm
 	vendor/bin/psalm --config=psalm.xml --diff --diff-methods --show-info=false --stats --threads=4
 
@@ -27,7 +27,7 @@ static-code-analysis: vendor ## Runs a static code analysis with phpstan/phpstan
 static-code-analysis-baseline: vendor ## Generates a baseline for static code analysis with phpstan/phpstan and vimeo/psalm
 	mkdir -p .build/phpstan
 	echo '' > phpstan-baseline.neon
-	vendor/bin/phpstan analyze --configuration=phpstan.neon --error-format=baselineNeon > phpstan-baseline.neon || true
+	vendor/bin/phpstan analyze --configuration=phpstan.neon --error-format=baselineNeon --memory-limit=-1 > phpstan-baseline.neon || true
 	mkdir -p .build/psalm
 	vendor/bin/psalm --config=psalm.xml --set-baseline=psalm-baseline.xml
 
