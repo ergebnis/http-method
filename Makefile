@@ -10,7 +10,7 @@ coding-standards: vendor ## Normalizes composer.json with ergebnis/composer-norm
 
 .PHONY: dependency-analysis
 dependency-analysis: vendor ## Runs a dependency analysis with maglnet/composer-require-checker
-	tools/composer-require-checker check --config-file=$(shell pwd)/composer-require-checker.json
+	.phive/composer-require-checker check --config-file=$(shell pwd)/composer-require-checker.json
 
 .PHONY: help
 help: ## Displays this list of targets with descriptions
@@ -21,7 +21,7 @@ static-code-analysis: vendor ## Runs a static code analysis with phpstan/phpstan
 	mkdir -p .build/phpstan
 	vendor/bin/phpstan analyse --configuration=phpstan.neon --memory-limit=-1
 	mkdir -p .build/psalm
-	vendor/bin/psalm --config=psalm.xml --diff --diff-methods --show-info=false --stats --threads=4
+	vendor/bin/psalm --config=psalm.xml --diff --show-info=false --stats --threads=4
 
 .PHONY: static-code-analysis-baseline
 static-code-analysis-baseline: vendor ## Generates a baseline for static code analysis with phpstan/phpstan and vimeo/psalm
@@ -40,4 +40,4 @@ tests: vendor ## Runs auto-review, unit, and integration tests with phpunit/phpu
 
 vendor: composer.json composer.lock
 	composer validate --strict
-	composer install --no-interaction --no-progress --no-suggest
+	composer install --no-interaction --no-progress

@@ -19,7 +19,7 @@
     "php": "^7.2"
   },
   "require-dev": {
-    "ergebnis/composer-normalize": "^2.9.0",
+    "ergebnis/composer-normalize": "^2.10.0",
     "ergebnis/license": "^1.1.0",
     "ergebnis/php-cs-fixer-config": "^2.5.2",
     "ergebnis/phpstan-rules": "~0.15.3",
@@ -39,6 +39,12 @@
     },
     "preferred-install": "dist",
     "sort-packages": true
+  },
+  "extra": {
+    "composer-normalize": {
+      "indent-size": 2,
+      "indent-style": "space"
+    }
   },
   "autoload": {
     "psr-4": {
