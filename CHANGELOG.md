@@ -6,7 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-For a full diff see [`2.0.1...main`][2.0.1...main].
+For a full diff see [`2.1.0...main`][2.1.0...main].
+
+## [`2.1.0`][2.1.0]
+
+For a full diff see [`2.0.1...2.1.0`][2.0.1...2.1.0].
+
+### Added
+
+* Added support for PHP 8.0 ([#274]), by [@localheinz]
 
 ## [`2.0.1`][2.0.1]
 
@@ -80,11 +88,13 @@ For a full diff see [`848192d...1.0.0`][848192d...1.0.0].
 [1.0.0]: https://github.com/ergebnis/http-method/releases/tag/1.0.0
 [2.0.0]: https://github.com/ergebnis/http-method/releases/tag/2.0.0
 [2.0.1]: https://github.com/ergebnis/http-method/releases/tag/2.0.1
+[2.1.0]: https://github.com/ergebnis/http-method/releases/tag/2.1.0
 
 [848192d...1.0.0]: https://github.com/ergebnis/http-method/compare/848192d...1.0.0
 [1.0.0...2.0.0]: https://github.com/ergebnis/http-method/compare/1.0.0...2.0.0
 [2.0.0...2.0.1]: https://github.com/ergebnis/http-method/compare/2.0.0...2.0.1
-[2.0.1...main]: https://github.com/ergebnis/http-method/compare/2.0.1...main
+[2.0.1...2.1.0]: https://github.com/ergebnis/http-method/compare/2.0.1...2.1.0
+[2.1.0...main]: https://github.com/ergebnis/http-method/compare/2.1.0...main
 
 [#5]: https://github.com/ergebnis/http-method/pull/5
 [#7]: https://github.com/ergebnis/http-method/pull/7
@@ -103,6 +113,7 @@ For a full diff see [`848192d...1.0.0`][848192d...1.0.0].
 [#22]: https://github.com/ergebnis/http-method/pull/22
 [#70]: https://github.com/ergebnis/http-method/pull/70
 [#73]: https://github.com/ergebnis/http-method/pull/70
+[#274]: https://github.com/ergebnis/http-method/pull/274
 
 [@ergebnis]: https://github.com/ergebnis
 [@localheinz]: https://github.com/localheinz
