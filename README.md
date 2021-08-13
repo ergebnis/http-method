@@ -1,6 +1,7 @@
 # http-method
 
 [![Integrate](https://github.com/ergebnis/http-method/workflows/Integrate/badge.svg)](https://github.com/ergebnis/http-method/actions)
+[![Merge](https://github.com/ergebnis/http-method/workflows/Merge/badge.svg)](https://github.com/ergebnis/http-method/actions)
 [![Prune](https://github.com/ergebnis/http-method/workflows/Prune/badge.svg)](https://github.com/ergebnis/http-method/actions)
 [![Release](https://github.com/ergebnis/http-method/workflows/Release/badge.svg)](https://github.com/ergebnis/http-method/actions)
 [![Renew](https://github.com/ergebnis/http-method/workflows/Renew/badge.svg)](https://github.com/ergebnis/http-method/actions)
