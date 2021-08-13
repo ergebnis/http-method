@@ -5,6 +5,7 @@
 [![Prune](https://github.com/ergebnis/http-method/workflows/Prune/badge.svg)](https://github.com/ergebnis/http-method/actions)
 [![Release](https://github.com/ergebnis/http-method/workflows/Release/badge.svg)](https://github.com/ergebnis/http-method/actions)
 [![Renew](https://github.com/ergebnis/http-method/workflows/Renew/badge.svg)](https://github.com/ergebnis/http-method/actions)
+[![Triage](https://github.com/ergebnis/http-method/workflows/Triage/badge.svg)](https://github.com/ergebnis/http-method/actions)
 
 [![Type Coverage](https://shepherd.dev/github/ergebnis/http-method/coverage.svg)](https://shepherd.dev/github/ergebnis/http-method)
 
