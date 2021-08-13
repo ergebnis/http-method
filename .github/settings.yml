@@ -58,10 +58,6 @@ labels:
     color: "0e8a16"
     description: ""
 
-  - name: "merge"
-    color: "6f42c1"
-    description: ""
-
   - name: "rfc"
     color: "f4db3a"
     description: ""
