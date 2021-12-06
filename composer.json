@@ -1,25 +1,29 @@
 {
   "name": "ergebnis/http-method",
-  "type": "library",
   "description": "Provides constants for HTTP request methods.",
+  "license": "MIT",
+  "type": "library",
   "keywords": [
     "http",
     "request",
     "method"
   ],
-  "homepage": "https://github.com/ergebnis/http-method",
-  "license": "MIT",
   "authors": [
     {
       "name": "Andreas Möller",
       "email": "am@localheinz.com"
     }
   ],
+  "homepage": "https://github.com/ergebnis/http-method",
+  "support": {
+    "issues": "https://github.com/ergebnis/http-method/issues",
+    "source": "https://github.com/ergebnis/http-method"
+  },
   "require": {
     "php": "^7.2 || ^8.0"
   },
   "require-dev": {
-    "ergebnis/composer-normalize": "^2.15.0",
+    "ergebnis/composer-normalize": "^2.17.0",
     "ergebnis/license": "^1.1.0",
     "ergebnis/php-cs-fixer-config": "^2.14.0",
     "ergebnis/phpstan-rules": "~0.15.3",
@@ -33,6 +37,16 @@
     "psalm/plugin-phpunit": "~0.16.1",
     "vimeo/psalm": "^4.14.0"
   },
+  "autoload": {
+    "psr-4": {
+      "Ergebnis\\Http\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ergebnis\\Http\\Test\\": "test/"
+    }
+  },
   "config": {
     "platform": {
       "php": "7.2.25"
@@ -45,19 +59,5 @@
       "indent-size": 2,
       "indent-style": "space"
     }
-  },
-  "autoload": {
-    "psr-4": {
-      "Ergebnis\\Http\\": "src/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Ergebnis\\Http\\Test\\": "test/"
-    }
-  },
-  "support": {
-    "issues": "https://github.com/ergebnis/http-method/issues",
-    "source": "https://github.com/ergebnis/http-method"
   }
 }
