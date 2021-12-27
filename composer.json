@@ -20,7 +20,7 @@
     "source": "https://github.com/ergebnis/http-method"
   },
   "require": {
-    "php": "^7.2 || ^8.0"
+    "php": "^7.3 || ^8.0"
   },
   "require-dev": {
     "ergebnis/composer-normalize": "^2.18.0",
@@ -54,7 +54,7 @@
       "phpstan/extension-installer": true
     },
     "platform": {
-      "php": "7.2.25"
+      "php": "7.3.32"
     },
     "preferred-install": "dist",
     "sort-packages": true
