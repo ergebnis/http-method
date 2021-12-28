@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 For a full diff see [`2.1.0...main`][2.1.0...main].
 
+## [`2.2.0`][2.2.0]
+
+For a full diff see [`2.1.0...2.2.0`][2.1.0..2.2.0].
+
 ### Changed
 
 - Dropped support for PHP 7.2 ([#428]), by [@localheinz]
@@ -94,12 +98,14 @@ For a full diff see [`848192d...1.0.0`][848192d...1.0.0].
 [2.0.0]: https://github.com/ergebnis/http-method/releases/tag/2.0.0
 [2.0.1]: https://github.com/ergebnis/http-method/releases/tag/2.0.1
 [2.1.0]: https://github.com/ergebnis/http-method/releases/tag/2.1.0
+[2.2.0]: https://github.com/ergebnis/http-method/releases/tag/2.1.0
 
 [848192d...1.0.0]: https://github.com/ergebnis/http-method/compare/848192d...1.0.0
 [1.0.0...2.0.0]: https://github.com/ergebnis/http-method/compare/1.0.0...2.0.0
 [2.0.0...2.0.1]: https://github.com/ergebnis/http-method/compare/2.0.0...2.0.1
 [2.0.1...2.1.0]: https://github.com/ergebnis/http-method/compare/2.0.1...2.1.0
-[2.1.0...main]: https://github.com/ergebnis/http-method/compare/2.1.0...main
+[2.1.0...2.2.0]: https://github.com/ergebnis/http-method/compare/2.1.0...2.2.0
+[2.2.0...main]: https://github.com/ergebnis/http-method/compare/2.2.0...main
 
 [#5]: https://github.com/ergebnis/http-method/pull/5
 [#7]: https://github.com/ergebnis/http-method/pull/7
