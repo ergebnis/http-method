@@ -26,7 +26,7 @@
     "ergebnis/composer-normalize": "^2.22.0",
     "ergebnis/license": "^1.2.0",
     "ergebnis/php-cs-fixer-config": "^3.4.0",
-    "ergebnis/test-util": "^1.5.0",
+    "ergebnis/test-util": "^1.6.0",
     "phpunit/phpunit": "^9.5.11",
     "psalm/plugin-phpunit": "~0.16.1",
     "vimeo/psalm": "^4.17.0"
