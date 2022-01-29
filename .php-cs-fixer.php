@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /**
- * Copyright (c) 2019-2021 Andreas Möller
+ * Copyright (c) 2019-2022 Andreas Möller
  *
  * For the full copyright and license information, please view
  * the LICENSE.md file that was distributed with this source code.
@@ -18,10 +18,10 @@ $license = License\Type\MIT::markdown(
     __DIR__ . '/LICENSE.md',
     License\Range::since(
         License\Year::fromString('2019'),
-        new \DateTimeZone('UTC')
+        new \DateTimeZone('UTC'),
     ),
     License\Holder::fromString('Andreas Möller'),
-    License\Url::fromString('https://github.com/ergebnis/http-method')
+    License\Url::fromString('https://github.com/ergebnis/http-method'),
 );
 
 $license->save();
