@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6d5c27d5e6bbe90b99f08f7f1b8013ac",
+    "content-hash": "1c2db792cbe063eaae97dba79d00c5e4",
     "packages": [],
     "packages-dev": [
         {
@@ -1052,16 +1052,16 @@
         },
         {
             "name": "ergebnis/php-cs-fixer-config",
-            "version": "4.8.0",
+            "version": "4.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/php-cs-fixer-config.git",
-                "reference": "a2c225e3bea2078c874a27ac820c0e8161e1cf8f"
+                "reference": "e7ddb24d93dcef2ec7a98ef093901150d52fecd8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/php-cs-fixer-config/zipball/a2c225e3bea2078c874a27ac820c0e8161e1cf8f",
-                "reference": "a2c225e3bea2078c874a27ac820c0e8161e1cf8f",
+                "url": "https://api.github.com/repos/ergebnis/php-cs-fixer-config/zipball/e7ddb24d93dcef2ec7a98ef093901150d52fecd8",
+                "reference": "e7ddb24d93dcef2ec7a98ef093901150d52fecd8",
                 "shasum": ""
             },
             "require": {
@@ -1073,7 +1073,7 @@
                 "ergebnis/composer-normalize": "^2.28.3",
                 "ergebnis/license": "^1.2.0",
                 "fakerphp/faker": "^1.20.0",
-                "phpunit/phpunit": "^9.5.24",
+                "phpunit/phpunit": "^9.5.25",
                 "psalm/plugin-phpunit": "~0.17.0",
                 "symfony/filesystem": "^4.4.0 || ^5.0.0",
                 "vimeo/psalm": "^4.27"
@@ -1106,7 +1106,7 @@
                 "issues": "https://github.com/ergebnis/php-cs-fixer-config/issues",
                 "source": "https://github.com/ergebnis/php-cs-fixer-config"
             },
-            "time": "2022-09-02T11:45:50+00:00"
+            "time": "2022-09-29T13:13:05+00:00"
         },
         {
             "name": "felixfbecker/advanced-json-rpc",
