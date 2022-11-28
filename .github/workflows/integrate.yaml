@@ -71,7 +71,7 @@ jobs:
         uses: "actions/cache@v3.0.11"
         with:
           path: ".build/php-cs-fixer"
-          key: "php-${{ matrix.php-version }}-php-cs-fixer-${{ github.sha }}"
+          key: "php-${{ matrix.php-version }}-php-cs-fixer-${{ github.ref_name }}"
           restore-keys: "php-${{ matrix.php-version }}-php-cs-fixer-"
 
       - name: "Run friendsofphp/php-cs-fixer"
