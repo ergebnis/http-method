@@ -25,18 +25,18 @@ so that a developer can refer to these by using named constants instead of magic
 
 Here are a few examples of HTTP request abstractions which provide constants for HTTP request methods:
 
-* [`Symfony\Component\HttpFoundation\Request`](https://github.com/symfony/http-foundation/blob/v4.3.2/Request.php#L41-L50)
-* [`Zend\Http\Request`](https://github.com/zendframework/zend-http/blob/release-2.10.0/src/Request.php#L26-L35)
+- [`Symfony\Component\HttpFoundation\Request`](https://github.com/symfony/http-foundation/blob/v4.3.2/Request.php#L41-L50)
+- [`Zend\Http\Request`](https://github.com/zendframework/zend-http/blob/release-2.10.0/src/Request.php#L26-L35)
 
 Here are a few examples of HTTP response abstractions which provide constants for HTTP response status codes:
 
-* [`Symfony\Component\HttpFoundation\Response`](https://github.com/symfony/http-foundation/blob/v4.3.2/Response.php#L21-L88)
-* [`Zend\Http\Response`](https://github.com/zendframework/zend-http/blob/release-2.10.0/src/Response.php#L24-L88)
+- [`Symfony\Component\HttpFoundation\Response`](https://github.com/symfony/http-foundation/blob/v4.3.2/Response.php#L21-L88)
+- [`Zend\Http\Response`](https://github.com/zendframework/zend-http/blob/release-2.10.0/src/Response.php#L24-L88)
 
 Here are a few examples of interfaces providing constants for HTTP request methods and HTTP response status codes:
 
-* [`Fig\Http\Message\RequestMethodInterface`](https://github.com/php-fig/http-message-util/blob/1.1.3/src/RequestMethodInterface.php#L24-L33)
-* [`Fig\Http\Message\StatusCodeInterface`](https://github.com/php-fig/http-message-util/blob/1.1.3/src/StatusCodeInterface.php#L39-L106)
+- [`Fig\Http\Message\RequestMethodInterface`](https://github.com/php-fig/http-message-util/blob/1.1.3/src/RequestMethodInterface.php#L24-L33)
+- [`Fig\Http\Message\StatusCodeInterface`](https://github.com/php-fig/http-message-util/blob/1.1.3/src/StatusCodeInterface.php#L39-L106)
 
 However, a developer might use an abstraction that either does not provide any constants at all, or only provides a subset of the constants required for the specific case.
 
@@ -56,20 +56,20 @@ $ composer require ergebnis/http-method
 
 The interface [`Ergebnis\Http\Method`](/src/Method.php) provides constants for all of the HTTP request methods that are standardized by
 
-* [RFC 5789](https://tools.ietf.org/html/rfc5789)
-* [RFC 7231](https://tools.ietf.org/html/rfc7231)
+- [RFC 5789](https://tools.ietf.org/html/rfc5789)
+- [RFC 7231](https://tools.ietf.org/html/rfc7231)
 
 namely
 
-* `CONNECT`
-* `DELETE`
-* `GET`
-* `HEAD`
-* `OPTIONS`
-* `PATCH`
-* `POST`
-* `PUT`
-* `TRACE`
+- `CONNECT`
+- `DELETE`
+- `GET`
+- `HEAD`
+- `OPTIONS`
+- `PATCH`
+- `POST`
+- `PUT`
+- `TRACE`
 
 The interface [`Ergebnis\Http\Method\WebDav`](/src/Method/WebDav.php) provides constants for all of the HTTP request methods that are standardized by
 
