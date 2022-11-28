@@ -49,7 +49,7 @@ In a similar fashion, this library here aims to provide a collection of interfac
 Run
 
 ```sh
-$ composer require ergebnis/http-method
+composer require ergebnis/http-method
 ```
 
 ## Usage
