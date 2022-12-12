@@ -20,7 +20,7 @@
     "source": "https://github.com/ergebnis/http-method"
   },
   "require": {
-    "php": "^8.0"
+    "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
   },
   "require-dev": {
     "ergebnis/composer-normalize": "^2.29.0",
