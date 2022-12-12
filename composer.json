@@ -28,7 +28,7 @@
     "ergebnis/php-cs-fixer-config": "^5.0.0",
     "phpunit/phpunit": "^9.5.27",
     "psalm/plugin-phpunit": "~0.18.4",
-    "vimeo/psalm": "^5.1.0"
+    "vimeo/psalm": "^5.2.0"
   },
   "autoload": {
     "psr-4": {
