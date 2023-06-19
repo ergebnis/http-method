@@ -1,90 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="3.18.2@19aa905f7c3c7350569999a93c40ae91ae4e1626">
-  <file src="test/Unit/Method/Rfc/Rfc3648Test.php">
-    <RedundantCondition occurrences="1">
-      <code>assertSame</code>
-    </RedundantCondition>
+<files psalm-version="5.12.0@f90118cdeacd0088e7215e64c0c99ceca819e176">
+  <file src="src/Method.php">
+    <UnusedClass>
+      <code>Method</code>
+    </UnusedClass>
   </file>
-  <file src="test/Unit/Method/Rfc/Rfc3744Test.php">
-    <RedundantCondition occurrences="1">
-      <code>assertSame</code>
-    </RedundantCondition>
-  </file>
-  <file src="test/Unit/Method/Rfc/Rfc4437Test.php">
-    <RedundantCondition occurrences="2">
-      <code>assertSame</code>
-      <code>assertSame</code>
-    </RedundantCondition>
-  </file>
-  <file src="test/Unit/Method/Rfc/Rfc4791Test.php">
-    <RedundantCondition occurrences="1">
-      <code>assertSame</code>
-    </RedundantCondition>
-  </file>
-  <file src="test/Unit/Method/Rfc/Rfc4918Test.php">
-    <RedundantCondition occurrences="7">
-      <code>assertSame</code>
-      <code>assertSame</code>
-      <code>assertSame</code>
-      <code>assertSame</code>
-      <code>assertSame</code>
-      <code>assertSame</code>
-      <code>assertSame</code>
-    </RedundantCondition>
-  </file>
-  <file src="test/Unit/Method/Rfc/Rfc5323Test.php">
-    <RedundantCondition occurrences="1">
-      <code>assertSame</code>
-    </RedundantCondition>
-  </file>
-  <file src="test/Unit/Method/Rfc/Rfc5789Test.php">
-    <RedundantCondition occurrences="1">
-      <code>assertSame</code>
-    </RedundantCondition>
-  </file>
-  <file src="test/Unit/Method/Rfc/Rfc5842Test.php">
-    <RedundantCondition occurrences="3">
-      <code>assertSame</code>
-      <code>assertSame</code>
-      <code>assertSame</code>
-    </RedundantCondition>
-  </file>
-  <file src="test/Unit/Method/Rfc/Rfc7231Test.php">
-    <RedundantCondition occurrences="8">
-      <code>assertSame</code>
-      <code>assertSame</code>
-      <code>assertSame</code>
-      <code>assertSame</code>
-      <code>assertSame</code>
-      <code>assertSame</code>
-      <code>assertSame</code>
-      <code>assertSame</code>
-    </RedundantCondition>
-  </file>
-  <file src="test/Unit/Method/Rfc/Rfc7540Test.php">
-    <RedundantCondition occurrences="1">
-      <code>assertSame</code>
-    </RedundantCondition>
-  </file>
-  <file src="test/Unit/Method/Vendor/SquidCacheTest.php">
-    <RedundantCondition occurrences="1">
-      <code>assertSame</code>
-    </RedundantCondition>
-  </file>
-  <file src="test/Unit/Method/Vendor/VarnishCacheTest.php">
-    <RedundantCondition occurrences="2">
-      <code>assertSame</code>
-      <code>assertSame</code>
-    </RedundantCondition>
-  </file>
-  <file src="test/Unit/Method/WebDavTest.php">
-    <MixedInferredReturnType occurrences="1">
-      <code>array</code>
-    </MixedInferredReturnType>
-  </file>
-  <file src="test/Unit/MethodTest.php">
-    <MixedInferredReturnType occurrences="1">
-      <code>array</code>
-    </MixedInferredReturnType>
+  <file src="src/Method/WebDav.php">
+    <UnusedClass>
+      <code>WebDav</code>
+    </UnusedClass>
   </file>
 </files>
