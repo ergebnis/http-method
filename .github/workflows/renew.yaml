@@ -6,9 +6,6 @@ on: # yamllint disable-line rule:truthy
   schedule:
     - cron: "0 0 1 1 *"
 
-env:
-  PHP_EXTENSIONS: "mbstring"
-
 jobs:
   license:
     name: "License"
@@ -33,11 +30,14 @@ jobs:
         uses: "shivammathur/setup-php@2.25.4"
         with:
           coverage: "none"
-          extensions: "${{ env.PHP_EXTENSIONS }}"
+          extensions: "none, ctype, curl, dom, json, mbstring, phar, simplexml, tokenizer, xml, xmlwriter"
           php-version: "${{ matrix.php-version }}"
 
+      - name: "Set up problem matchers for PHP"
+        run: "echo \"::add-matcher::${{ runner.tool_cache }}/php.json\""
+
       - name: "Validate composer.json and composer.lock"
-        run: "composer validate --strict"
+        run: "composer validate --ansi --strict"
 
       - name: "Determine composer cache directory"
         uses: "ergebnis/.github/actions/composer/determine-cache-directory@1.8.0"
@@ -62,10 +62,12 @@ jobs:
         with:
           path: ".build/php-cs-fixer"
           key: "php-${{ matrix.php-version }}-php-cs-fixer-${{ github.ref_name }}"
-          restore-keys: "php-${{ matrix.php-version }}-php-cs-fixer-"
+          restore-keys: |
+            php-${{ matrix.php-version }}-php-cs-fixer-main
+            php-${{ matrix.php-version }}-php-cs-fixer-
 
       - name: "Run friendsofphp/php-cs-fixer"
-        run: "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.php --diff --verbose"
+        run: "vendor/bin/php-cs-fixer fix --ansi --config=.php-cs-fixer.php --diff --verbose"
 
       - name: "Commit modified files"
         uses: "stefanzweifel/git-auto-commit-action@v4.16.0"

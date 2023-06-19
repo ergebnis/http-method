@@ -2,15 +2,15 @@
 
 [![Integrate](https://github.com/ergebnis/http-method/workflows/Integrate/badge.svg)](https://github.com/ergebnis/http-method/actions)
 [![Merge](https://github.com/ergebnis/http-method/workflows/Merge/badge.svg)](https://github.com/ergebnis/http-method/actions)
-[![Prune](https://github.com/ergebnis/http-method/workflows/Prune/badge.svg)](https://github.com/ergebnis/http-method/actions)
 [![Release](https://github.com/ergebnis/http-method/workflows/Release/badge.svg)](https://github.com/ergebnis/http-method/actions)
 [![Renew](https://github.com/ergebnis/http-method/workflows/Renew/badge.svg)](https://github.com/ergebnis/http-method/actions)
-[![Triage](https://github.com/ergebnis/http-method/workflows/Triage/badge.svg)](https://github.com/ergebnis/http-method/actions)
 
+[![Code Coverage](https://codecov.io/gh/ergebnis/http-method/branch/main/graph/badge.svg)](https://codecov.io/gh/ergebnis/http-method)
 [![Type Coverage](https://shepherd.dev/github/ergebnis/http-method/coverage.svg)](https://shepherd.dev/github/ergebnis/http-method)
 
 [![Latest Stable Version](https://poser.pugx.org/ergebnis/http-method/v/stable)](https://packagist.org/packages/ergebnis/http-method)
 [![Total Downloads](https://poser.pugx.org/ergebnis/http-method/downloads)](https://packagist.org/packages/ergebnis/http-method)
+[![Monthly Downloads](http://poser.pugx.org/ergebnis/http-method/d/monthly)](https://packagist.org/packages/ergebnis/http-method)
 
 Provides constants for HTTP request methods, inspired by [`teapot/status-code`](https://github.com/teapot-php/status-code).
 
@@ -126,6 +126,8 @@ To use these constants, import the interfaces and refer to the constants instead
 ```php
 <?php
 
+declare(strict_types=1);
+
 use Ergebnis\Http\Method;
 use Psr\Http\Client;
 use Psr\Http\Message;
@@ -133,7 +135,7 @@ use Psr\Http\Message;
 /** @var Message\RequestFactoryInterface $requestFactory */
 $request = $requestFactory->create(
     Method::GET,
-    'https://localheinz.com/blog'
+    'https://localheinz.com/articles/'
 );
 
 /** @var Client\ClientInterface $httpClient */
@@ -154,12 +156,16 @@ Please have a look at [`CONTRIBUTING.md`](.github/CONTRIBUTING.md).
 
 Please have a look at [`CODE_OF_CONDUCT.md`](https://github.com/ergebnis/.github/blob/main/CODE_OF_CONDUCT.md).
 
+## Security Policy
+
+Please have a look at [`SECURITY.md`](.github/SECURITY.md).
+
 ## License
 
 This package is licensed using the MIT License.
 
 Please have a look at [`LICENSE.md`](LICENSE.md).
 
-## Curious what I am building?
+## Curious what I am up to?
 
-:mailbox_with_mail: [Subscribe to my list](https://localheinz.com/projects/), and I will occasionally send you an email to let you know what I am working on.
+Follow me on [Twitter](https://twitter.com/intent/follow?screen_name=localheinz)!
