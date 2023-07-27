@@ -20,7 +20,7 @@
     "source": "https://github.com/ergebnis/http-method"
   },
   "require": {
-    "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
+    "php": "~8.1.0 || ~8.2.0"
   },
   "require-dev": {
     "ergebnis/composer-normalize": "^2.31.0",
@@ -47,7 +47,7 @@
       "ergebnis/composer-normalize": true
     },
     "platform": {
-      "php": "8.0.25"
+      "php": "8.1.21"
     },
     "preferred-install": "dist",
     "sort-packages": true
