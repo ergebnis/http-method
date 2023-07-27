@@ -16,7 +16,7 @@ namespace Ergebnis\Http\Test\Unit\Method\Vendor;
 use Ergebnis\Http\Method\Vendor\VarnishCache;
 use PHPUnit\Framework;
 
-#[Framework\Attributes\CoversClass(\Ergebnis\Http\Method\Vendor\VarnishCache::class)]
+#[Framework\Attributes\CoversClass(VarnishCache::class)]
 final class VarnishCacheTest extends Framework\TestCase
 {
     public function testConstants(): void

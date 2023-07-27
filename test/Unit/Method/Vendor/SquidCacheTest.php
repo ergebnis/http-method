@@ -16,7 +16,7 @@ namespace Ergebnis\Http\Test\Unit\Method\Vendor;
 use Ergebnis\Http\Method\Vendor\SquidCache;
 use PHPUnit\Framework;
 
-#[Framework\Attributes\CoversClass(\Ergebnis\Http\Method\Vendor\SquidCache::class)]
+#[Framework\Attributes\CoversClass(SquidCache::class)]
 final class SquidCacheTest extends Framework\TestCase
 {
     public function testConstants(): void
