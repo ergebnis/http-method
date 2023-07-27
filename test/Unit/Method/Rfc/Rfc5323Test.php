@@ -16,11 +16,7 @@ namespace Ergebnis\Http\Test\Unit\Method\Rfc;
 use Ergebnis\Http\Method\Rfc\Rfc5323;
 use PHPUnit\Framework;
 
-/**
- * @internal
- *
- * @covers \Ergebnis\Http\Method\Rfc\Rfc5323
- */
+#[Framework\Attributes\CoversClass(Rfc5323::class)]
 final class Rfc5323Test extends Framework\TestCase
 {
     public function testConstants(): void

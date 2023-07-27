@@ -16,11 +16,7 @@ namespace Ergebnis\Http\Test\Unit\Method\Rfc;
 use Ergebnis\Http\Method\Rfc\Rfc4437;
 use PHPUnit\Framework;
 
-/**
- * @internal
- *
- * @covers \Ergebnis\Http\Method\Rfc\Rfc4437
- */
+#[Framework\Attributes\CoversClass(Rfc4437::class)]
 final class Rfc4437Test extends Framework\TestCase
 {
     public function testConstants(): void
