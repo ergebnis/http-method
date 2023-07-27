@@ -16,11 +16,7 @@ namespace Ergebnis\Http\Test\Unit\Method\Vendor;
 use Ergebnis\Http\Method\Vendor\SquidCache;
 use PHPUnit\Framework;
 
-/**
- * @internal
- *
- * @covers \Ergebnis\Http\Method\Vendor\SquidCache
- */
+#[Framework\Attributes\CoversClass(\Ergebnis\Http\Method\Vendor\SquidCache::class)]
 final class SquidCacheTest extends Framework\TestCase
 {
     public function testConstants(): void

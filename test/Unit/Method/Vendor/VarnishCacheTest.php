@@ -16,11 +16,7 @@ namespace Ergebnis\Http\Test\Unit\Method\Vendor;
 use Ergebnis\Http\Method\Vendor\VarnishCache;
 use PHPUnit\Framework;
 
-/**
- * @internal
- *
- * @covers \Ergebnis\Http\Method\Vendor\VarnishCache
- */
+#[Framework\Attributes\CoversClass(\Ergebnis\Http\Method\Vendor\VarnishCache::class)]
 final class VarnishCacheTest extends Framework\TestCase
 {
     public function testConstants(): void
