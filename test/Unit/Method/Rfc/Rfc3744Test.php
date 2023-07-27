@@ -13,14 +13,14 @@ declare(strict_types=1);
 
 namespace Ergebnis\Http\Test\Unit\Method\Rfc;
 
-use Ergebnis\Http\Method\Rfc\Rfc3744;
+use Ergebnis\Http\Method\Rfc;
 use PHPUnit\Framework;
 
-#[Framework\Attributes\CoversClass(Rfc3744::class)]
+#[Framework\Attributes\CoversClass(Rfc\Rfc3744::class)]
 final class Rfc3744Test extends Framework\TestCase
 {
     public function testConstants(): void
     {
-        self::assertSame('ACL', Rfc3744::ACL);
+        self::assertSame('ACL', Rfc\Rfc3744::ACL);
     }
 }

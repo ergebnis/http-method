@@ -13,14 +13,14 @@ declare(strict_types=1);
 
 namespace Ergebnis\Http\Test\Unit\Method\Rfc;
 
-use Ergebnis\Http\Method\Rfc\Rfc4791;
+use Ergebnis\Http\Method\Rfc;
 use PHPUnit\Framework;
 
-#[Framework\Attributes\CoversClass(Rfc4791::class)]
+#[Framework\Attributes\CoversClass(Rfc\Rfc4791::class)]
 final class Rfc4791Test extends Framework\TestCase
 {
     public function testConstants(): void
     {
-        self::assertSame('MKCALENDAR', Rfc4791::MKCALENDAR);
+        self::assertSame('MKCALENDAR', Rfc\Rfc4791::MKCALENDAR);
     }
 }

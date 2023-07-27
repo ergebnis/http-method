@@ -13,20 +13,20 @@ declare(strict_types=1);
 
 namespace Ergebnis\Http\Test\Unit\Method\Rfc;
 
-use Ergebnis\Http\Method\Rfc\Rfc4918;
+use Ergebnis\Http\Method\Rfc;
 use PHPUnit\Framework;
 
-#[Framework\Attributes\CoversClass(Rfc4918::class)]
+#[Framework\Attributes\CoversClass(Rfc\Rfc4918::class)]
 final class Rfc4918Test extends Framework\TestCase
 {
     public function testConstants(): void
     {
-        self::assertSame('COPY', Rfc4918::COPY);
-        self::assertSame('LOCK', Rfc4918::LOCK);
-        self::assertSame('MKCOL', Rfc4918::MKCOL);
-        self::assertSame('MOVE', Rfc4918::MOVE);
-        self::assertSame('PROPFIND', Rfc4918::PROPFIND);
-        self::assertSame('PROPPATCH', Rfc4918::PROPPATCH);
-        self::assertSame('UNLOCK', Rfc4918::UNLOCK);
+        self::assertSame('COPY', Rfc\Rfc4918::COPY);
+        self::assertSame('LOCK', Rfc\Rfc4918::LOCK);
+        self::assertSame('MKCOL', Rfc\Rfc4918::MKCOL);
+        self::assertSame('MOVE', Rfc\Rfc4918::MOVE);
+        self::assertSame('PROPFIND', Rfc\Rfc4918::PROPFIND);
+        self::assertSame('PROPPATCH', Rfc\Rfc4918::PROPPATCH);
+        self::assertSame('UNLOCK', Rfc\Rfc4918::UNLOCK);
     }
 }

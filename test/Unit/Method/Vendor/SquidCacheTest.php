@@ -13,14 +13,14 @@ declare(strict_types=1);
 
 namespace Ergebnis\Http\Test\Unit\Method\Vendor;
 
-use Ergebnis\Http\Method\Vendor\SquidCache;
+use Ergebnis\Http\Method\Vendor;
 use PHPUnit\Framework;
 
-#[Framework\Attributes\CoversClass(SquidCache::class)]
+#[Framework\Attributes\CoversClass(Vendor\SquidCache::class)]
 final class SquidCacheTest extends Framework\TestCase
 {
     public function testConstants(): void
     {
-        self::assertSame('PURGE', SquidCache::PURGE);
+        self::assertSame('PURGE', Vendor\SquidCache::PURGE);
     }
 }

@@ -13,14 +13,14 @@ declare(strict_types=1);
 
 namespace Ergebnis\Http\Test\Unit\Method\Rfc;
 
-use Ergebnis\Http\Method\Rfc\Rfc5323;
+use Ergebnis\Http\Method\Rfc;
 use PHPUnit\Framework;
 
-#[Framework\Attributes\CoversClass(Rfc5323::class)]
+#[Framework\Attributes\CoversClass(Rfc\Rfc5323::class)]
 final class Rfc5323Test extends Framework\TestCase
 {
     public function testConstants(): void
     {
-        self::assertSame('SEARCH', Rfc5323::SEARCH);
+        self::assertSame('SEARCH', Rfc\Rfc5323::SEARCH);
     }
 }
