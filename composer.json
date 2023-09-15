@@ -47,6 +47,9 @@
       "composer/package-versions-deprecated": true,
       "ergebnis/composer-normalize": true
     },
+    "audit": {
+      "abandoned": "report"
+    },
     "platform": {
       "php": "8.1.21"
     },
