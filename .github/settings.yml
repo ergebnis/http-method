@@ -79,7 +79,7 @@ repository:
   archived: false
   default_branch: "main"
   delete_branch_on_merge: true
-  description: ":grapes: Provides constants for HTTP request methods."
+  description: "📟 Provides a composer package with constants for HTTP request methods."
   enable_automated_security_fixes: true
   enable_vulnerability_alerts: true
   has_discussions: false
