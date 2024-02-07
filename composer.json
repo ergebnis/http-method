@@ -31,7 +31,7 @@
     "ergebnis/phpunit-slow-test-detector": "^2.10.0",
     "phpunit/phpunit": "^10.5.9",
     "psalm/plugin-phpunit": "~0.18.4",
-    "rector/rector": "~1.0.0",
+    "rector/rector": "^1.0.0",
     "roave/backward-compatibility-check": "^8.6.0",
     "vimeo/psalm": "^5.21.1"
   },
