@@ -29,7 +29,7 @@
     "ergebnis/license": "^2.4.0",
     "ergebnis/php-cs-fixer-config": "^6.23.0",
     "ergebnis/phpunit-slow-test-detector": "^2.10.0",
-    "phpunit/phpunit": "^10.5.12",
+    "phpunit/phpunit": "^10.5.13",
     "psalm/plugin-phpunit": "~0.18.4",
     "rector/rector": "^1.0.2",
     "roave/backward-compatibility-check": "^8.6.0",
