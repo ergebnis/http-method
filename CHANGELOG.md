@@ -159,7 +159,7 @@ For a full diff see [`848192d...1.0.0`][848192d...1.0.0].
 [#429]: https://github.com/ergebnis/http-method/pull/429
 [#537]: https://github.com/ergebnis/http-method/pull/537
 [#622]: https://github.com/ergebnis/http-method/pull/622
-[#93]: https://github.com/ergebnis/http-method/pull/693
+[#693]: https://github.com/ergebnis/http-method/pull/693
 
 [@ergebnis]: https://github.com/ergebnis
 [@localheinz]: https://github.com/localheinz
