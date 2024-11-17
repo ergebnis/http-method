@@ -1,0 +1,212 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'LINK' and 'LINK' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc2068Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'UNLINK' and 'UNLINK' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc2068Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'BASELINE_CONTROL' and 'BASELINE_CONTROL' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc3253Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'CHECKIN' and 'CHECKIN' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc3253Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'CHECKOUT' and 'CHECKOUT' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc3253Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'LABEL' and 'LABEL' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc3253Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'MERGE' and 'MERGE' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc3253Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'MKACTIVITY' and 'MKACTIVITY' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc3253Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'MKWORKSPACE' and 'MKWORKSPACE' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc3253Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'REPORT' and 'REPORT' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc3253Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'UNCHECKOUT' and 'UNCHECKOUT' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc3253Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'UPDATE' and 'UPDATE' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc3253Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'VERSION\\-CONTROL' and 'VERSION\\-CONTROL' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc3253Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'ORDERPATCH' and 'ORDERPATCH' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc3648Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'ACL' and 'ACL' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc3744Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'MKREDIRECTREF' and 'MKREDIRECTREF' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc4437Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'UPDATEREDIRECTREF' and 'UPDATEREDIRECTREF' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc4437Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'MKCALENDAR' and 'MKCALENDAR' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc4791Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'COPY' and 'COPY' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc4918Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'LOCK' and 'LOCK' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc4918Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'MKCOL' and 'MKCOL' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc4918Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'MOVE' and 'MOVE' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc4918Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'PROPFIND' and 'PROPFIND' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc4918Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'PROPPATCH' and 'PROPPATCH' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc4918Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'UNLOCK' and 'UNLOCK' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc4918Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'SEARCH' and 'SEARCH' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc5323Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'PATCH' and 'PATCH' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc5789Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'BIND' and 'BIND' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc5842Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'REBIND' and 'REBIND' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc5842Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'UNBIND' and 'UNBIND' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc5842Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'CONNECT' and 'CONNECT' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc7231Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'DELETE' and 'DELETE' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc7231Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'GET' and 'GET' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc7231Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'HEAD' and 'HEAD' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc7231Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'OPTIONS' and 'OPTIONS' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc7231Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'POST' and 'POST' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc7231Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'PUT' and 'PUT' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc7231Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'TRACE' and 'TRACE' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc7231Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'PRI' and 'PRI' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Rfc/Rfc7540Test.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'PURGE' and 'PURGE' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Vendor/SquidCacheTest.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'BAN' and 'BAN' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Vendor/VarnishCacheTest.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with 'PURGE' and 'PURGE' will always evaluate to true\\.$#"
+			count: 1
+			path: test/Unit/Method/Vendor/VarnishCacheTest.php
+
