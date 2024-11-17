@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 For a full diff see [`2.5.0...main`][2.5.0...main].
 
+### Added
+
+- Added support for PHP 8.4 ([#858]), by [@localheinz]
+
 ## [`2.5.0`][2.5.0]
 
 For a full diff see [`2.4.0...2.5.0`][2.4.0...2.5.0].
@@ -160,6 +164,7 @@ For a full diff see [`848192d...1.0.0`][848192d...1.0.0].
 [#537]: https://github.com/ergebnis/http-method/pull/537
 [#622]: https://github.com/ergebnis/http-method/pull/622
 [#693]: https://github.com/ergebnis/http-method/pull/693
+[#858]: https://github.com/ergebnis/http-method/pull/858
 
 [@ergebnis]: https://github.com/ergebnis
 [@localheinz]: https://github.com/localheinz
