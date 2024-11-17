@@ -4,13 +4,13 @@
 
 The following versions of `ergebnis/http-method` have active support:
 
-- `^2.5.0`
+- `^2.6.0`
 
 ## Unsupported Versions
 
 The following versions of `ergebnis/http-method` have reached their end of life:
 
-- `<2.5.0`
+- `<2.6.0`
 
 ## Reporting a Vulnerability
 
