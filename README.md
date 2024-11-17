@@ -6,7 +6,6 @@
 [![Renew](https://github.com/ergebnis/http-method/workflows/Renew/badge.svg)](https://github.com/ergebnis/http-method/actions)
 
 [![Code Coverage](https://codecov.io/gh/ergebnis/http-method/branch/main/graph/badge.svg)](https://codecov.io/gh/ergebnis/http-method)
-[![Type Coverage](https://shepherd.dev/github/ergebnis/http-method/coverage.svg)](https://shepherd.dev/github/ergebnis/http-method)
 
 [![Latest Stable Version](https://poser.pugx.org/ergebnis/http-method/v/stable)](https://packagist.org/packages/ergebnis/http-method)
 [![Total Downloads](https://poser.pugx.org/ergebnis/http-method/downloads)](https://packagist.org/packages/ergebnis/http-method)
