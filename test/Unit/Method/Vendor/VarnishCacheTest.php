@@ -13,15 +13,15 @@ declare(strict_types=1);
 
 namespace Ergebnis\Http\Test\Unit\Method\Vendor;
 
-use Ergebnis\Http\Method\Vendor;
+use Ergebnis\Http\Method;
 use PHPUnit\Framework;
 
-#[Framework\Attributes\CoversClass(Vendor\VarnishCache::class)]
+#[Framework\Attributes\CoversClass(Method\Vendor\VarnishCache::class)]
 final class VarnishCacheTest extends Framework\TestCase
 {
     public function testConstants(): void
     {
-        self::assertSame('BAN', Vendor\VarnishCache::BAN);
-        self::assertSame('PURGE', Vendor\VarnishCache::PURGE);
+        self::assertSame('BAN', Method\Vendor\VarnishCache::BAN);
+        self::assertSame('PURGE', Method\Vendor\VarnishCache::PURGE);
     }
 }

@@ -13,14 +13,14 @@ declare(strict_types=1);
 
 namespace Ergebnis\Http\Test\Unit\Method\Rfc;
 
-use Ergebnis\Http\Method\Rfc;
+use Ergebnis\Http\Method;
 use PHPUnit\Framework;
 
-#[Framework\Attributes\CoversClass(Rfc\Rfc3648::class)]
+#[Framework\Attributes\CoversClass(Method\Rfc\Rfc3648::class)]
 final class Rfc3648Test extends Framework\TestCase
 {
     public function testConstants(): void
     {
-        self::assertSame('ORDERPATCH', Rfc\Rfc3648::ORDERPATCH);
+        self::assertSame('ORDERPATCH', Method\Rfc\Rfc3648::ORDERPATCH);
     }
 }

@@ -13,15 +13,15 @@ declare(strict_types=1);
 
 namespace Ergebnis\Http\Test\Unit\Method\Rfc;
 
-use Ergebnis\Http\Method\Rfc;
+use Ergebnis\Http\Method;
 use PHPUnit\Framework;
 
-#[Framework\Attributes\CoversClass(Rfc\Rfc2068::class)]
+#[Framework\Attributes\CoversClass(Method\Rfc\Rfc2068::class)]
 final class Rfc2068Test extends Framework\TestCase
 {
     public function testConstants(): void
     {
-        self::assertSame(Rfc\Rfc2068::LINK, 'LINK');
-        self::assertSame(Rfc\Rfc2068::UNLINK, 'UNLINK');
+        self::assertSame(Method\Rfc\Rfc2068::LINK, 'LINK');
+        self::assertSame(Method\Rfc\Rfc2068::UNLINK, 'UNLINK');
     }
 }
