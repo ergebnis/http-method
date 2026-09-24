@@ -81,7 +81,7 @@ For a full diff see [`2.0.0...2.0.1`][2.0.0...2.0.1].
 
 - Removed an inappropriate `replace` configuration from `composer.json` ([#73]), by [@localheinz]
 
-### [`2.0.0`][2.0.0]
+## [`2.0.0`][2.0.0]
 
 For a full diff see [`1.0.0...2.0.0`][1.0.0...2.0.0].
 
@@ -120,7 +120,7 @@ For a full diff see [`1.0.0...2.0.0`][1.0.0...2.0.0].
 
   to delete backup files created in the previous step.
 
-### [`1.0.0`][1.0.0]
+## [`1.0.0`][1.0.0]
 
 For a full diff see [`848192d...1.0.0`][848192d...1.0.0].
 
@@ -183,7 +183,7 @@ For a full diff see [`848192d...1.0.0`][848192d...1.0.0].
 [#19]: https://github.com/ergebnis/http-method/pull/19
 [#22]: https://github.com/ergebnis/http-method/pull/22
 [#70]: https://github.com/ergebnis/http-method/pull/70
-[#73]: https://github.com/ergebnis/http-method/pull/70
+[#73]: https://github.com/ergebnis/http-method/pull/73
 [#274]: https://github.com/ergebnis/http-method/pull/274
 [#428]: https://github.com/ergebnis/http-method/pull/428
 [#429]: https://github.com/ergebnis/http-method/pull/429
