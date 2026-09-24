@@ -6,7 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-For a full diff see [`2.8.0...main`][2.8.0...main].
+For a full diff see [`2.9.0...main`][2.9.0...main].
+
+## [`2.9.0`][2.9.0]
+
+For a full diff see [`2.8.0...2.9.0`][2.8.0...2.9.0].
 
 ### Changed
 
@@ -169,7 +173,9 @@ For a full diff see [`848192d...1.0.0`][848192d...1.0.0].
 [2.5.0...2.6.0]: https://github.com/ergebnis/http-method/compare/2.5.0...2.6.0
 [2.6.0...2.7.0]: https://github.com/ergebnis/http-method/compare/2.6.0...2.7.0
 [2.7.0...2.8.0]: https://github.com/ergebnis/http-method/compare/2.7.0...2.8.0
-[2.8.0...main]: https://github.com/ergebnis/http-method/compare/2.8.0...main
+[2.8.0...2.9.0]: https://github.com/ergebnis/http-method/compare/2.8.0...2.9.0
+[2.9.0]: https://github.com/ergebnis/http-method/releases/tag/2.9.0
+[2.9.0...main]: https://github.com/ergebnis/http-method/compare/2.9.0...main
 
 [#5]: https://github.com/ergebnis/http-method/pull/5
 [#7]: https://github.com/ergebnis/http-method/pull/7
