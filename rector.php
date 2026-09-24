@@ -11,6 +11,7 @@ declare(strict_types=1);
  * @see https://github.com/ergebnis/http-method
  */
 
+use Ergebnis\Rector;
 use Rector\Config;
 use Rector\Php81;
 use Rector\PHPUnit;
@@ -30,6 +31,13 @@ return static function (Config\RectorConfig $rectorConfig): void {
 
     $rectorConfig->rules([
         Php81\Rector\Property\ReadOnlyPropertyRector::class,
+    ]);
+
+    $rectorConfig->ruleWithConfiguration(Rector\Rules\Files\ReferenceNamespacedSymbolsRelativeToNamespacePrefixRector::class, [
+        'discoverNamespacePrefixes' => true,
+        'parentNamespacePrefixes' => [
+            'Ergebnis\Http',
+        ],
     ]);
 
     $rectorConfig->sets([

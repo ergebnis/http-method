@@ -13,15 +13,15 @@ declare(strict_types=1);
 
 namespace Ergebnis\Http\Test\Unit\Method\Rfc;
 
-use Ergebnis\Http\Method\Rfc;
+use Ergebnis\Http\Method;
 use PHPUnit\Framework;
 
-#[Framework\Attributes\CoversClass(Rfc\Rfc4437::class)]
+#[Framework\Attributes\CoversClass(Method\Rfc\Rfc4437::class)]
 final class Rfc4437Test extends Framework\TestCase
 {
     public function testConstants(): void
     {
-        self::assertSame('MKREDIRECTREF', Rfc\Rfc4437::MKREDIRECTREF);
-        self::assertSame('UPDATEREDIRECTREF', Rfc\Rfc4437::UPDATEREDIRECTREF);
+        self::assertSame('MKREDIRECTREF', Method\Rfc\Rfc4437::MKREDIRECTREF);
+        self::assertSame('UPDATEREDIRECTREF', Method\Rfc\Rfc4437::UPDATEREDIRECTREF);
     }
 }
