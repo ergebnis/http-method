@@ -9,7 +9,7 @@
 
 [![Latest Stable Version](https://poser.pugx.org/ergebnis/http-method/v/stable)](https://packagist.org/packages/ergebnis/http-method)
 [![Total Downloads](https://poser.pugx.org/ergebnis/http-method/downloads)](https://packagist.org/packages/ergebnis/http-method)
-[![Monthly Downloads](http://poser.pugx.org/ergebnis/http-method/d/monthly)](https://packagist.org/packages/ergebnis/http-method)
+[![Monthly Downloads](https://poser.pugx.org/ergebnis/http-method/d/monthly)](https://packagist.org/packages/ergebnis/http-method)
 
 This project provides a [`composer`](https://getcomposer.org) package with constants for HTTP request methods.
 
