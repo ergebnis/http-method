@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "44ebf52518a9b5c6a1635c2ccd98d9f9",
+    "content-hash": "ff6bad4c7ba1dfb826055dedaa37aa53",
     "packages": [],
     "packages-dev": [
         {
@@ -1050,6 +1050,75 @@
                 "source": "https://github.com/ergebnis/phpstan-rules"
             },
             "time": "2026-09-24T19:43:19+00:00"
+        },
+        {
+            "name": "ergebnis/phpunit-agent-reporter",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ergebnis/phpunit-agent-reporter.git",
+                "reference": "ad4337de4100ab58f66e27e07115538e8142f107"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ergebnis/phpunit-agent-reporter/zipball/ad4337de4100ab58f66e27e07115538e8142f107",
+                "reference": "ad4337de4100ab58f66e27e07115538e8142f107",
+                "shasum": ""
+            },
+            "require": {
+                "ergebnis/agent-detector": "^1.0.1",
+                "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0 || ~8.6.0",
+                "phpunit/phpunit": "^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0"
+            },
+            "require-dev": {
+                "ergebnis/composer-normalize": "^2.53.0",
+                "ergebnis/license": "^2.7.0",
+                "ergebnis/php-cs-fixer-config": "^6.63.3",
+                "ergebnis/phpstan-rules": "^2.13.1",
+                "ergebnis/rector-rules": "^1.18.3",
+                "fakerphp/faker": "^1.24.1",
+                "infection/infection": "~0.27.11",
+                "justinrainbow/json-schema": "^5.0.0 || ^6.0.0",
+                "phpstan/phpstan": "^2.2.2",
+                "phpstan/phpstan-deprecation-rules": "^2.0.5",
+                "phpstan/phpstan-phpunit": "^2.0.18",
+                "phpstan/phpstan-strict-rules": "^2.0.12",
+                "rector/rector": "^2.6.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.2-dev"
+                },
+                "composer-normalize": {
+                    "indent-size": 2,
+                    "indent-style": "space"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ergebnis\\PHPUnit\\AgentReporter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Möller",
+                    "email": "am@localheinz.com",
+                    "homepage": "https://localheinz.com"
+                }
+            ],
+            "description": "Provides an extension for reporting phpunit/phpunit test execution details to agents.",
+            "homepage": "https://github.com/ergebnis/phpunit-agent-reporter",
+            "support": {
+                "issues": "https://github.com/ergebnis/phpunit-agent-reporter/issues",
+                "security": "https://github.com/ergebnis/phpunit-agent-reporter/blob/main/.github/SECURITY.md",
+                "source": "https://github.com/ergebnis/phpunit-agent-reporter"
+            },
+            "time": "2026-09-24T19:43:28+00:00"
         },
         {
             "name": "ergebnis/phpunit-slow-test-detector",
