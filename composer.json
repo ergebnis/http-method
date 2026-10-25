@@ -30,7 +30,7 @@
     "ergebnis/php-cs-fixer-config": "^6.64.1",
     "ergebnis/phpstan-rules": "^2.14.0",
     "ergebnis/phpunit-agent-reporter": "^1.3.0",
-    "ergebnis/phpunit-slow-test-detector": "^2.26.0",
+    "ergebnis/phpunit-slow-test-detector": "^2.27.0",
     "ergebnis/rector-rules": "^1.18.5",
     "phpstan/extension-installer": "^1.4.3",
     "phpstan/phpstan": "^2.1.55",
