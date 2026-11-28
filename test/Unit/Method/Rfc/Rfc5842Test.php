@@ -13,16 +13,16 @@ declare(strict_types=1);
 
 namespace Ergebnis\Http\Test\Unit\Method\Rfc;
 
-use Ergebnis\Http\Method;
+use Ergebnis\Http;
 use PHPUnit\Framework;
 
-#[Framework\Attributes\CoversClass(Method\Rfc\Rfc5842::class)]
+#[Framework\Attributes\CoversClass(Http\Method\Rfc\Rfc5842::class)]
 final class Rfc5842Test extends Framework\TestCase
 {
     public function testConstants(): void
     {
-        self::assertSame('BIND', Method\Rfc\Rfc5842::BIND);
-        self::assertSame('REBIND', Method\Rfc\Rfc5842::REBIND);
-        self::assertSame('UNBIND', Method\Rfc\Rfc5842::UNBIND);
+        self::assertSame('BIND', Http\Method\Rfc\Rfc5842::BIND);
+        self::assertSame('REBIND', Http\Method\Rfc\Rfc5842::REBIND);
+        self::assertSame('UNBIND', Http\Method\Rfc\Rfc5842::UNBIND);
     }
 }

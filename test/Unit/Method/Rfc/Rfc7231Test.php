@@ -13,21 +13,21 @@ declare(strict_types=1);
 
 namespace Ergebnis\Http\Test\Unit\Method\Rfc;
 
-use Ergebnis\Http\Method;
+use Ergebnis\Http;
 use PHPUnit\Framework;
 
-#[Framework\Attributes\CoversClass(Method\Rfc\Rfc7231::class)]
+#[Framework\Attributes\CoversClass(Http\Method\Rfc\Rfc7231::class)]
 final class Rfc7231Test extends Framework\TestCase
 {
     public function testConstants(): void
     {
-        self::assertSame('CONNECT', Method\Rfc\Rfc7231::CONNECT);
-        self::assertSame('DELETE', Method\Rfc\Rfc7231::DELETE);
-        self::assertSame('GET', Method\Rfc\Rfc7231::GET);
-        self::assertSame('HEAD', Method\Rfc\Rfc7231::HEAD);
-        self::assertSame('OPTIONS', Method\Rfc\Rfc7231::OPTIONS);
-        self::assertSame('POST', Method\Rfc\Rfc7231::POST);
-        self::assertSame('PUT', Method\Rfc\Rfc7231::PUT);
-        self::assertSame('TRACE', Method\Rfc\Rfc7231::TRACE);
+        self::assertSame('CONNECT', Http\Method\Rfc\Rfc7231::CONNECT);
+        self::assertSame('DELETE', Http\Method\Rfc\Rfc7231::DELETE);
+        self::assertSame('GET', Http\Method\Rfc\Rfc7231::GET);
+        self::assertSame('HEAD', Http\Method\Rfc\Rfc7231::HEAD);
+        self::assertSame('OPTIONS', Http\Method\Rfc\Rfc7231::OPTIONS);
+        self::assertSame('POST', Http\Method\Rfc\Rfc7231::POST);
+        self::assertSame('PUT', Http\Method\Rfc\Rfc7231::PUT);
+        self::assertSame('TRACE', Http\Method\Rfc\Rfc7231::TRACE);
     }
 }
